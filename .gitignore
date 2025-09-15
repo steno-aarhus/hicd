@@ -1,2 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.httr-oauth
+.DS_Store
+_site
 /.quarto/
-/_site/
+_ignore
+*_files
+
