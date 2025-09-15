@@ -5,6 +5,10 @@ website:
   title: "Health in Central Denmark"
   site-url: "https://steno-aarhus.github.io/hicd/"
   repo-url: "https://github.com/steno-aarhus/hicd"
+  navbar:
+    tools:
+      - icon: github
+        href: "https://github.com/steno-aarhus/hicd"
 
 format:
   sdca-theme-html:
