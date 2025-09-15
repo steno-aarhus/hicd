@@ -1,0 +1,19 @@
+project:
+  type: sdca-theme
+
+website:
+  # TODO: Change title and URLs to fit the name of the repo
+  title: "Health in Central Denmark"
+  site-url: "https://steno-aarhus.github.io/hicd/"
+  repo-url: "https://github.com/steno-aarhus/hicd"
+
+format:
+  sdca-theme-html:
+    theme:
+      - brand
+      - custom-styles.scss
+
+editor: 
+  markdown:
+    wrap: 72
+    canonical: true
