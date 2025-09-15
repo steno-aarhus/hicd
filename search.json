@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Health in Central Denmark",
+    "section": "",
+    "text": "All text below this is meant as examples of elements you can add to your website. You should delete this text and replace it with your own text, images, etc."
+  },
+  {
+    "objectID": "index.html#image-example",
+    "href": "index.html#image-example",
+    "title": "Health in Central Denmark",
+    "section": "Image example",
+    "text": "Image example\n\n\n\nExample image text"
+  },
+  {
+    "objectID": "index.html#button-example",
+    "href": "index.html#button-example",
+    "title": "Health in Central Denmark",
+    "section": "Button example",
+    "text": "Button example\n\nA button linking to a page"
+  },
+  {
+    "objectID": "index.html#profile-picture-example",
+    "href": "index.html#profile-picture-example",
+    "title": "Health in Central Denmark",
+    "section": "Profile picture example",
+    "text": "Profile picture example\n\n\n\n\nAnna Andersen"
+  },
+  {
+    "objectID": "index.html#randomly-generated-chatgpt-text-to-fill-space",
+    "href": "index.html#randomly-generated-chatgpt-text-to-fill-space",
+    "title": "Health in Central Denmark",
+    "section": "Randomly generated ChatGPT text to fill space",
+    "text": "Randomly generated ChatGPT text to fill space\nHere’s some bold text and some italic text.\nIn a quaint village nestled between rolling hills and meandering streams, the locals gathered every weekend for a lively farmers’ market. The air was filled with the enticing aroma of freshly baked bread and the vibrant colors of stalls displaying an array of fruits and vegetables. Children laughed as they chased each other through the cobblestone streets, creating a joyful symphony that echoed through the charming community.\nMeanwhile, high above the village, fluffy clouds painted the sky in hues of pink and orange as the sun began its descent. A lone eagle soared gracefully, riding the warm currents of air. In the distance, the silhouette of an ancient castle stood tall on a hill, silently witnessing the passage of time. As evening descended, the village transformed into a tranquil oasis, the soft glow of lanterns casting a warm and enchanting ambiance over the cobblestone streets."
+  },
+  {
+    "objectID": "index.html#table-example",
+    "href": "index.html#table-example",
+    "title": "Health in Central Denmark",
+    "section": "Table example",
+    "text": "Table example\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24"
+  },
+  {
+    "objectID": "index.html#callout-blocks",
+    "href": "index.html#callout-blocks",
+    "title": "Health in Central Denmark",
+    "section": "Callout blocks",
+    "text": "Callout blocks\nA callout block:\n\n\n\n\n\n\nHeader within callout block\n\n\n\nSome text inside a callout block. You can add any text you want here, and it will be shown in a box."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2024 Steno Diabetes Center Aarhus\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  }
+]
