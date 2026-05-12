@@ -5,6 +5,9 @@ author:
   - name: Theresa Møller Kynde
     affiliation:
       - name: Steno Diabetes Center Aarhus
+editor: 
+  markdown: 
+    wrap: 72
 ---
 ## Purpose
 The aim of the Health in Central Denmark cohort (HICD) is to achieve more knowledge about health and burden of disease among persons with diabetes and other chronic diseases and to follow this cohort on questionnaire and register data for development of disease and complications to diabetes over a ten-year period.
@@ -20,3 +23,19 @@ We distributed an electronic questionnaire to the eligible members of the cohort
 
 ## Follow-up
 The study population will be followed up on questionnaires and registers during follow up until the end of 2030. We plan to send out questionnaire twice during this period. Follow-up questionnaires will be send out to the first invited population even if the first questionnaire was not completed. Register data will be updated every second year. For those who develop diabetes during the follow-up period, we will register the date of diagnosis according to the same algorithm used by the initiation of the HICD cohort. 
+
+## Terms of use
+Skal der stå noget med "All users need an affiliation (not necessarily paid emploument) with Steno Diabetes Center Aarhus to obtain direct acces and need to have an active access to Statistics Denmark" ??
+
+## Contact
+* Kasper Norman ([kanoan\@rm.dk](mailto:kanoan@rm.dk){.email})
+* Theresa Møller Kynde ([therad\@rm.dk](mailto:therad@rm.dk){.email})
+* Andre?
+
+## How to get access
+Skal der stå det samme som Marie har skrevet på registers-project-database? 
+There are several ways to get to work on the SDCA Project database at Statistics Denmark. If the purpose of your study fits under one of the already existing sub-projects, you can contact the person responsible for the project and request permission to access it. Below you can see a short description of all existing projects in the project database.
+
+If the purpose of your study does not fit under any of the existing projects in the project database you can set up your own project under the project database (provided that your purpose is aligned with the overall purpose). On this page you can find information on the procedures and steps you will need to follow to set up a new sub-project under the project database.
+
+## Overview of active projects in HICD
