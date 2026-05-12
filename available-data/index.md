@@ -26,6 +26,7 @@ The following register data are available in the HICD.
 * Register of Laboratory Results for Research
 * Cause of Death Register
 * Statistics Denmark
+
 Most of the registers data are available more than 20 years before inclusion in the cohort. 
 
 ## How to get access to data
