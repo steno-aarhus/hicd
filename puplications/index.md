@@ -3,8 +3,7 @@ title: "Puplications"
 description: 
 ---
 
-**Cohort profile: Health in Central Denmark (HICD) cohort - a register-based questionnaire survey on diabetes and related complications in the Central Denmark Region**
-
+**Cohort profile: Health in Central Denmark (HICD) cohort - a register-based questionnaire survey on diabetes and related complications in the Central Denmark Region** <br>
 Characteristics of the cohort is published in the cohort profile paper: <https://pubmed.ncbi.nlm.nih.gov/35798528/>
 
 
