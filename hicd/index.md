@@ -5,9 +5,6 @@ author:
   - name: Theresa Møller Kynde
     affiliation:
       - name: Steno Diabetes Center Aarhus
-editor: 
-  markdown: 
-    wrap: 72
 ---
 ## Purpose
 The aim of the Health in Central Denmark cohort (HICD) is to achieve more knowledge about health and burden of disease among persons with diabetes and other chronic diseases and to follow this cohort on questionnaire and register data for development of disease and complications to diabetes over a ten-year period.
