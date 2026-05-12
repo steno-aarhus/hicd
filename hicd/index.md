@@ -25,8 +25,8 @@ The study population will be followed up on questionnaires and registers during 
 Skal der stå noget med "All users need an affiliation (not necessarily paid emploument) with Steno Diabetes Center Aarhus to obtain direct acces and need to have an active access to Statistics Denmark" ??
 
 ## Contact
-* Kasper Norman ([kanoan\@rm.dk](mailto:kanoan@rm.dk){.email})
-* Theresa Møller Kynde ([therad\@rm.dk](mailto:therad@rm.dk){.email})
+* Kasper Norman ([kanoan\@rm.dk](mailto:kanoan@rm.dk))
+* Theresa Møller Kynde ([therad\@rm.dk](mailto:therad@rm.dk))
 * Andre?
 
 ## How to get access
