@@ -7,3 +7,4 @@ author:
       - name: Steno Diabetes Center Aarhus
 ---
 
+HICD was initiated in 2020 and...
