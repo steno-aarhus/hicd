@@ -1,5 +1,5 @@
 ---
-title: "Puplications"
+title: "Publications"
 description: 
 ---
 
