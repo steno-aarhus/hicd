@@ -25,10 +25,4 @@ Skal der stå noget med "All users need an affiliation (not necessarily paid emp
 * Theresa Møller Kynde ([therad\@rm.dk](mailto:therad@rm.dk))
 * Andre?
 
-## How to get access
-Skal der stå det samme som Marie har skrevet på registers-project-database? 
-There are several ways to get to work on the SDCA Project database at Statistics Denmark. If the purpose of your study fits under one of the already existing sub-projects, you can contact the person responsible for the project and request permission to access it. Below you can see a short description of all existing projects in the project database.
-
-If the purpose of your study does not fit under any of the existing projects in the project database you can set up your own project under the project database (provided that your purpose is aligned with the overall purpose). On this page you can find information on the procedures and steps you will need to follow to set up a new sub-project under the project database.
-
 ## Overview of active projects in HICD
