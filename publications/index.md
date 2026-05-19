@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-description: 
 ---
 
 **Cohort profile: Health in Central Denmark (HICD) cohort - a register-based questionnaire survey on diabetes and related complications in the Central Denmark Region** <br>
