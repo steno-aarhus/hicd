@@ -1,6 +1,5 @@
 ---
 title: "How to get access to data"
-description: 
 ---
 
 ## How to get access to data
