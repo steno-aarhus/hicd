@@ -28,5 +28,5 @@ The following register data are available in the HICD.
 
 Most of the registers data are available more than 20 years before inclusion in the cohort. 
 
-# List of variables
+## List of variables
 This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project 
