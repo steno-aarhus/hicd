@@ -25,6 +25,8 @@ The following register data are available in the HICD.
 * Clinical Laboratory Information System (LABKA), The Central Denmark Region
 * Register of Laboratory Results for Research
 * Cause of Death Register
-* Statistics Denmark
 
 Most of the registers data are available more than 20 years before inclusion in the cohort. 
+
+# List of variables
+This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project 
