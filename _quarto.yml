@@ -13,9 +13,21 @@ website:
     type: light
 
   navbar:
+    pinned: true
+    left:
+      - text: "Health in Central Denmark (HICD)"
+        href: hicd/index.qmd
+      - text: "Available data"
+        href: available-data/index.qmd
+      - text: "How to get data"
+        href: how-to-get-data/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd 
     tools:
       - icon: github
         href: "https://github.com/steno-aarhus/hicd"
+        # I don't know if the line below should be added
+        aria-label: "GitHub icon: Link to SDCA GitHub organization page"
 
 format:
   sdca-theme-html:
