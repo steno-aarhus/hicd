@@ -1,52 +1,94 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Health in Central Denmark",
+    "objectID": "hicd/index.html",
+    "href": "hicd/index.html",
+    "title": "About Health in Central Denmark",
     "section": "",
-    "text": "All text below this is meant as examples of elements you can add to your website. You should delete this text and replace it with your own text, images, etc."
+    "text": "The aim of the Health in Central Denmark cohort (HICD) is to achieve more knowledge about health and burden of disease among persons with diabetes and other chronic diseases and to follow this cohort on questionnaire and register data for development of disease and complications to diabetes over a ten-year period."
   },
   {
-    "objectID": "index.html#image-example",
-    "href": "index.html#image-example",
-    "title": "Health in Central Denmark",
-    "section": "Image example",
-    "text": "Image example\n\n\n\nExample image text"
+    "objectID": "hicd/index.html#purpose",
+    "href": "hicd/index.html#purpose",
+    "title": "About Health in Central Denmark",
+    "section": "",
+    "text": "The aim of the Health in Central Denmark cohort (HICD) is to achieve more knowledge about health and burden of disease among persons with diabetes and other chronic diseases and to follow this cohort on questionnaire and register data for development of disease and complications to diabetes over a ten-year period."
   },
   {
-    "objectID": "index.html#button-example",
-    "href": "index.html#button-example",
-    "title": "Health in Central Denmark",
-    "section": "Button example",
-    "text": "Button example\n\nA button linking to a page"
+    "objectID": "hicd/index.html#about",
+    "href": "hicd/index.html#about",
+    "title": "About Health in Central Denmark",
+    "section": "About",
+    "text": "About\nHICD cohort was initiated in 2020 by Steno Diabetes Center Aarhus as a population-based research resource in the Central Denmark Region. The baseline survey was conducted between November 2020 and February 2021 and included approximately 90,000 adults with and without diabetes identified through national registers. In 2024, the cohort was expanded with a second large-scale questionnaire survey including approximately 130,000 citizens from the region. HICD combines repeated questionnaire data with linkage to Danish nationwide health, laboratory, and administrative registers, enabling longitudinal studies of chronic disease burden, diabetes-related complications, healthcare use, and social inequality in health. Follow-up is planned for at least 10 years, with repeated questionnaire waves and updates of registry and laboratory data every second year."
   },
   {
-    "objectID": "index.html#profile-picture-example",
-    "href": "index.html#profile-picture-example",
-    "title": "Health in Central Denmark",
-    "section": "Profile picture example",
-    "text": "Profile picture example\n\n\n\n\nAnna Andersen"
+    "objectID": "hicd/index.html#population",
+    "href": "hicd/index.html#population",
+    "title": "About Health in Central Denmark",
+    "section": "Population",
+    "text": "Population\nWe identified all inhabitants in Central Denmark Region between 18-75 years on December 31 2018 in the Danish Civil Register (n=942,572). From this population all persons with diabetes were identified by the use of national Danish registers. Persons with diabetes were identified based om hospital diagnoses (ICD-10 codes DE10-DE14) from the Danish National Patient Register, redeemed glucose-lowering medications were retrieved from the Danish National Prescription Register (ATC-code A10, except Saxenda), diabetes-specific podiatrist services from the Danish National Health Service Register, and laboratory results for HbA1c (≥ 48 mmol/mol) from the Clinical Laboratory Information System in Central Denmark Region, LABKA II (NPU27300 and NPU03835) (See Register data). In total, 44,648 persons with diabetes were identified. From the remaining population in the Central Denmark Region (n=895,065), a group without diabetes (n=46,187) matching the population with diabetes on gender, age and municipality were drawn by use of a simple random sample i.e. the matched group without diabetes is not matched directly with an individual with diabetes. We distributed an electronic questionnaire to the eligible members of the cohort on November 18 2020 and the survey data collection ended on February 7 2021.In total, 51,854 persons responded to the questionnaire (57.1% of the invited). Among persons with type 1 diabetes 2,832 (55.9%) responded to the survey, among persons with type 2 diabetes 21,140 (53.2%), and of those without diabetes 27,882 (60.4%) responded to the survey."
   },
   {
-    "objectID": "index.html#randomly-generated-chatgpt-text-to-fill-space",
-    "href": "index.html#randomly-generated-chatgpt-text-to-fill-space",
-    "title": "Health in Central Denmark",
-    "section": "Randomly generated ChatGPT text to fill space",
-    "text": "Randomly generated ChatGPT text to fill space\nHere’s some bold text and some italic text.\nIn a quaint village nestled between rolling hills and meandering streams, the locals gathered every weekend for a lively farmers’ market. The air was filled with the enticing aroma of freshly baked bread and the vibrant colors of stalls displaying an array of fruits and vegetables. Children laughed as they chased each other through the cobblestone streets, creating a joyful symphony that echoed through the charming community.\nMeanwhile, high above the village, fluffy clouds painted the sky in hues of pink and orange as the sun began its descent. A lone eagle soared gracefully, riding the warm currents of air. In the distance, the silhouette of an ancient castle stood tall on a hill, silently witnessing the passage of time. As evening descended, the village transformed into a tranquil oasis, the soft glow of lanterns casting a warm and enchanting ambiance over the cobblestone streets."
+    "objectID": "hicd/index.html#follow-up",
+    "href": "hicd/index.html#follow-up",
+    "title": "About Health in Central Denmark",
+    "section": "Follow-up",
+    "text": "Follow-up\nThe study population will be followed up on questionnaires and registers during follow up until the end of 2030. We plan to send out questionnaire twice during this period. Follow-up questionnaires will be send out to the first invited population even if the first questionnaire was not completed. Register data will be updated every second year. For those who develop diabetes during the follow-up period, we will register the date of diagnosis according to the same algorithm used by the initiation of the HICD cohort."
   },
   {
-    "objectID": "index.html#table-example",
-    "href": "index.html#table-example",
-    "title": "Health in Central Denmark",
-    "section": "Table example",
-    "text": "Table example\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24"
+    "objectID": "hicd/index.html#terms-of-use",
+    "href": "hicd/index.html#terms-of-use",
+    "title": "About Health in Central Denmark",
+    "section": "Terms of use",
+    "text": "Terms of use\nSkal der stå noget med “All users need an affiliation (not necessarily paid emploument) with Steno Diabetes Center Aarhus to obtain direct acces and need to have an active access to Statistics Denmark” ??"
   },
   {
-    "objectID": "index.html#callout-blocks",
-    "href": "index.html#callout-blocks",
-    "title": "Health in Central Denmark",
-    "section": "Callout blocks",
-    "text": "Callout blocks\nA callout block:\n\n\n\n\n\n\nNoneHeader within callout block\n\n\n\nSome text inside a callout block. You can add any text you want here, and it will be shown in a box."
+    "objectID": "hicd/index.html#contact",
+    "href": "hicd/index.html#contact",
+    "title": "About Health in Central Denmark",
+    "section": "Contact",
+    "text": "Contact\n\nKasper Norman (kanoan@rm.dk)\nTheresa Møller Kynde (therad@rm.dk)\nAndre?"
+  },
+  {
+    "objectID": "hicd/index.html#overview-of-active-projects-in-hicd",
+    "href": "hicd/index.html#overview-of-active-projects-in-hicd",
+    "title": "About Health in Central Denmark",
+    "section": "Overview of active projects in HICD",
+    "text": "Overview of active projects in HICD"
+  },
+  {
+    "objectID": "how-to-get-data/index.html",
+    "href": "how-to-get-data/index.html",
+    "title": "How to get access to data",
+    "section": "",
+    "text": "The HICD is managed by a steering committee at SDCA consisting of members from both epidemiological and clinical diabetes research. The steering committee strongly encourage interested researchers across discipline to use this research resource. SDCA will provide applicants with detailed information on the available data and the application procedure. To get access to data please apply to the steering committee: auh.helbredimidt@rm.dk\nAll research on HICD-data is based on questionnaires and register data and require no ethical approval of projects. All data analyses are to be performed on SDCA’s remote access to Statistics Denmark’s server. This to secure the data safety. A senior researcher affiliated with SDCA will be the contact person to a potential research project and ’and responsible for the performing of analyses at Statistics Denmark’s server. The application process includes project approval by the steering committee, preparation of dataset, data extraction and access to Statistics Denmark. Normally this process takes four to six months, but will be dependent on the human resources at SDCA."
+  },
+  {
+    "objectID": "available-data/index.html",
+    "href": "available-data/index.html",
+    "title": "Available data",
+    "section": "",
+    "text": "The following information was collected through questionnaire between Nov 18 2020 and Feb 7 2021: * Anthropometrics * Dental health * Diabetes-specific problems and motivation * Diabetic status * Dyspnoea * Fertility * Sexual dysfunction * Sleeping problems * Symptoms and diseases * Taste and smell * Well-being"
+  },
+  {
+    "objectID": "available-data/index.html#questionnaire-data",
+    "href": "available-data/index.html#questionnaire-data",
+    "title": "Available data",
+    "section": "",
+    "text": "The following information was collected through questionnaire between Nov 18 2020 and Feb 7 2021: * Anthropometrics * Dental health * Diabetes-specific problems and motivation * Diabetic status * Dyspnoea * Fertility * Sexual dysfunction * Sleeping problems * Symptoms and diseases * Taste and smell * Well-being"
+  },
+  {
+    "objectID": "available-data/index.html#register-data",
+    "href": "available-data/index.html#register-data",
+    "title": "Available data",
+    "section": "Register data",
+    "text": "Register data\nThe following register data are available in the HICD. * Danish National Patinet Register * Danish National Health Service Registry * Danish National Prescription Register Statistic * Clinical Laboratory Information System (LABKA), The Central Denmark Region * Register of Laboratory Results for Research * Cause of Death Register\nMost of the registers data are available more than 20 years before inclusion in the cohort."
+  },
+  {
+    "objectID": "available-data/index.html#list-of-variables",
+    "href": "available-data/index.html#list-of-variables",
+    "title": "Available data",
+    "section": "List of variables",
+    "text": "List of variables\nThis is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project"
   },
   {
     "objectID": "LICENSE.html",
@@ -54,5 +96,26 @@
     "title": "Health in Central Denmark",
     "section": "",
     "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public: \nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Cohort profile: Health in Central Denmark (HICD) cohort - a register-based questionnaire survey on diabetes and related complications in the Central Denmark Region  Characteristics of the cohort is published in the cohort profile paper: https://pubmed.ncbi.nlm.nih.gov/35798528/\nPerception of Artificial Intelligence in Healthcare Among People with and Without Diabetes  A study examining Artificial Intelligence among individuals with and without diabetes has been published https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4181697\nOral health in diabetes  A cross-sectional study with more than 40.000 participants found that a higher proportion of people with type 2 diabetes reported poor oral health compared to those without diabetes. Moreover, educational attainment modified the effect of diabetes on oral health, showing that the risk of reporting poor oral health increased with lower educational attainment https://pubmed.ncbi.nlm.nih.gov/37500424/\nInequalities in healthcare utilisation among adults with type 2 diabetes  A new study sheds light on the healthcare attendance of adults with type 2 diabetes in the Central Denmark Region. The cross-sectional register-based study examined the prevalence of attending the ophthalmologist, podiatrist and dentist/dental hygienist among over 40.000 Danes with type 2 diabetes and found significant sociodemographic inequality in healthcare utilisation among people with type 2 diabetes, especially for dental attendance. The full article is available here https://pubmed.ncbi.nlm.nih.gov/37890705/"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Health in Central Denmark",
+    "section": "",
+    "text": "From Storyset\n\n\nHealth in Central Denmark (HICD)\nAvailable data\nHow to get data\nPublications"
+  },
+  {
+    "objectID": "index.html#website-for-health-in-central-denmark-hicd",
+    "href": "index.html#website-for-health-in-central-denmark-hicd",
+    "title": "Health in Central Denmark",
+    "section": "",
+    "text": "From Storyset\n\n\nHealth in Central Denmark (HICD)\nAvailable data\nHow to get data\nPublications"
   }
 ]
