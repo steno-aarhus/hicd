@@ -5,6 +5,7 @@ description: "The data available in HICD"
 
 ## Questionnaire data
 The following information was collected through questionnaire between Nov 18 2020 and Feb 7 2021: 
+
 * Anthropometrics
 * Dental health
 * Diabetes-specific problems and motivation
@@ -18,6 +19,8 @@ The following information was collected through questionnaire between Nov 18 202
 * Well-being
 
 ## Register data
+The following register data are available in the HICD:
+
 The following register data are available in the HICD. 
 * Danish National Patinet Register
 * Danish National Health Service Registry

@@ -6,17 +6,14 @@ toc: false
 # Health in Central Denmark
 ## Website for Health in Central Denmark (HICD)
 
-![From Storyset](images/Data extraction-amico (1).svg){fig-alt="An illustration of a computer screen displaying various data charts, surrounded by servers, folders, and additional charts." width="40em"}
+![Eksempel på billede](images/kohorte.svg){fig-alt="Diverse group in a vector-style illustrated portrait." width="30em"}
 
 [Health in Central Denmark (HICD)](hicd/index.qmd){.btn
-.btn-primary role="button"}
-
-[Available data](available-data/index.qmd){.btn
+.btn-primary role="button"} [Available data](available-data/index.qmd){.btn
 .btn-primary role="button"}
 
 [How to get data](how-to-get-data/index.qmd){.btn
-.btn-primary role="button"}
+.btn-primary role="button"} [Publications](publications/index.qmd){.btn
+![From Storyset](images/Data extraction-amico (1).svg){fig-alt="An illustration of a computer screen displaying various data charts, surrounded by servers, folders, and additional charts." width="40em"}
 
-[Publications](publications/index.qmd){.btn
-.btn-primary role="button"}
 :::
