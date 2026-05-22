@@ -21,6 +21,7 @@ The following information was collected through questionnaire between Nov 18 202
 ## Register data
 The following register data are available in the HICD:
 
+The following register data are available in the HICD. 
 * Danish National Patinet Register
 * Danish National Health Service Registry
 * Danish National Prescription Register Statistic

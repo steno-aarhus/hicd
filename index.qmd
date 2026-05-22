@@ -14,5 +14,6 @@ toc: false
 
 [How to get data](how-to-get-data/index.qmd){.btn
 .btn-primary role="button"} [Publications](publications/index.qmd){.btn
-.btn-primary role="button"}
+![From Storyset](images/Data extraction-amico (1).svg){fig-alt="An illustration of a computer screen displaying various data charts, surrounded by servers, folders, and additional charts." width="40em"}
+
 :::
