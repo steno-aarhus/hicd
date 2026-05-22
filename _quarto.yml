@@ -8,7 +8,7 @@ website:
   navbar:
     pinned: true
     left:
-       - text: "Health in Central Denmark (HICD)"
+      - text: "Health in Central Denmark (HICD)"
         href: hicd/index.qmd
       - text: "Available data"
         href: available-data/index.qmd
