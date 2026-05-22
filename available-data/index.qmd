@@ -31,4 +31,292 @@ The following register data are available in the HICD:
 Most of the registers data are available more than 20 years before inclusion in the cohort. 
 
 ## List of variables
-This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project 
+This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project
+
+::: {.callout-warning collapse="true"}
+## 2024 Codebook
+
+| Variabelnavn | Spørgsmålstekst | Svarværdi/tekstlængde | Svartekst |
+|---|---|---|---|
+| resp_id1 | Respondentnummer | 10 | Tekstvariabel |
+| strata | Strata | 1 | 1) Kontaktet i 2020 (både personer med diabetes og kontrolgruppen), 2) Nye personer med diabetes siden 2020, 3) Partnere til de nye med diabetes siden 2020, 4) Kontrolgruppe til de nye med diabetes siden 2020 |
+| understype4 | Undersøgelsestype 4 | 1 | 1) Personer med diabetes i 2020, 2) Kontrolgruppen i 2020, 3) Nye personer med diabetes siden 2020, 4) Partnere til de nye med diabetes siden 2020, 5) Kontrolgruppe til de nye med diabetes siden 2020, 6) Partnere til kontrolgruppen |
+| int_resultat | Status for undersøgelse | 1 | 1) Svar, 2) Delvist gennemført, 3) Nægter, 4) Øvrigt bortfald, 5) Sprogvanskeligheder, 6) Ikke relevant, 9) Ikke kontaktet (døde/udvandret), 10) Ikke svaret |
+| kort_langt | Kort eller langt skema | 1 | 1) Langt skema, 2) Kort skema |
+| hel_delvis | Registreret som hel eller delvis i systemet | 1 | 1) Registreret som hel besvarelse i systemet, 2) Registreret som delvis besvarelse i systemet |
+| int_dato2 | Interviewdato |  | Dato |
+| height_1 | Height_1 |  | Numerisk variabel uden format |
+| weight_1 | Weight_1 |  | Numerisk variabel uden format |
+| smoke | Ryger du? | 1 | 1) Ja, hver dag, 2) Ja, mindst én gang om ugen, 3) Ja, sjældnere end hver uge, 4) Nej, jeg er holdt op, 5) Nej, jeg har aldrig røget |
+| alcohol | Hvor tit drikker du noget, der indeholder alkohol? | 1 | 1) Aldrig |
+::: 
+
+::: {.callout-warning collapse="true"}
+## 2024 Questionnaire
+
+Respondentnummer
+Strata
+Undersøgelestype 4
+Status for undersøgelse
+Kort eller langt skema
+Registreret som hel eller delvis i systemet
+Interviewdato
+Height_1
+Weight_1
+Ryger du?
+Hvor tit drikker du noget, der indeholder alkohol?
+Hvor mange genstande drikker du almindeligvis, når du drikker noget?
+Hvor tit drikker du 5 genstande eller flere ved samme lejlighed?
+Hvis du ser på det seneste år, hvad vil du så sige, der passer bedst som beskrivelse af din fysiske aktivitet i fritiden?
+har jeg været glad og i godt humør
+har jeg følt mig rolig og afslappet
+har jeg følt mig aktiv og energisk
+er jeg vågnet frisk og udhvilet
+har min dagligdag været fyldt med ting, der interesserer mig
+Hvordan synes du, dit helbred er alt i alt?
+Lettere aktiviteter, såsom at flytte et bord, støvsuge eller cykle
+At gå flere etager op ad trapper
+Jeg har nået mindre, end jeg gerne ville
+Jeg har været begrænset i, hvilken slags arbejde eller andre aktiviteter jeg har kunnet udføre
+Jeg har nået mindre, end jeg gerne ville
+Jeg har udført mit arbejde eller andre aktiviteter mindre omhyggeligt, end jeg plejer
+Inden for de sidste 4 uger, hvor meget har fysisk smerte vanskeliggjort dit daglige arbejde? Både arbejde uden for hjemmet og husarbejde
+har du følt dig rolig og afslappet?
+har du været fuld af energi?
+har du følt dig trist til mode?
+Inden for de sidste 4 uger, hvor stor en del af tiden har dit fysiske helbred
+eller følelsesmæssige problemer gjort det vanskeligt at se andre mennesker?
+På de fleste områder er mit liv tæt op ad mit ideal
+Omstændighederne i mit liv er glimrende
+Jeg er tilfreds med mit liv
+Indtil nu har jeg fået de vigtige ting, som jeg ønsker i mit liv
+Hvis jeg kunne leve mit liv forfra, ville jeg næsten intet forandre.
+Hvor ofte føler du dig isoleret fra andre?
+Hvor ofte savner du nogen at være sammen med?
+Hvor ofte føler du dig udenfor?
+Har du haft skifteholds- eller natarbejde i de seneste 3 måneder?
+Hvor mange dage arbejder du normalt pr. uge?
+På ARBEJDSDAGE/HVERDAGE
+mctq_sleep_b
+På ARBEJDSDAGE/HVERDAGE
+mctq_wakeb
+På FRIDAGE
+mctq_free_sleepb
+På FRIDAGE
+mctq_free_wakeb
+Hjertebanken eller uro i brystet?
+Trykken eller smerter i brystet?
+Forpustethed uden anstrengelse?
+Anfald med vejrtrækningsbesvær?
+Varm- eller koldsveden?
+Mundtørhed?
+Hyppige, løse afføringer?
+Mavesmerter?
+Oppustethed, spændings- eller tyngdefornemmelse i maven?
+Diarré?
+Sure opstød?
+Kvalme?
+Svie eller smerter i toppen af maven?
+Smerter i armene eller benene?
+Muskelsmerter eller ømhed?
+Ledsmerter?
+Følelse af lammelse i arme eller ben?
+Rygsmerter?
+Smerter som flytter sig fra sted til sted?
+Ubehagelig dødhedsfornemmelse eller føleforstyrrelser?
+Koncentrationsbesvær?
+Træthed?
+Hovedpine?
+Hukommelsesbesvær?
+Svimmelhed?
+Har du indenfor de seneste 6 måneder været i kontakt med din praktiserende læge pga. et eller flere af de foregående symptomer?
+Forhøjet blodtryk
+Blodprop i hjertet
+Hjertekrampe (angina pectoris)
+Hjerneblødning, blodprop i hjernen
+Kronisk bronkitis, for store lunger, rygerlunger (emfysem, KOL)
+Knogleskørhed (osteoporose)
+Kræft
+Psykisk lidelse, som varede eller indtil nu har varet mindre end 6 måneder
+Psykisk lidelse af mere end 6 måneders varighed
+Jeg har aldrig haft nogle af disse sygdomme
+Får du behandling eller medicin for en eller flere sygdomme, eller går du til genoptræning eller regelmæssig kontrol?
+Tage meget medicin
+Huske hvordan og hvornår jeg skal tage min medicin
+Hente medicin på recept
+Holde øje med min helbredstilstand (fx ved at måle blodtryk eller blodsukker, eller holde øje med mine symptomer)
+Aftale tider med sundhedspersonalet
+Have kontakt med mange forskellige sundhedspersoner
+Komme til mine aftaler med sundhedspersonalet (fx fordi jeg skal have fri fra arbejde, eller sørge for transport)
+Få klar og opdateret besked om min helbredstilstand
+Gennemføre ændringer i min livsstil, som jeg er blevet rådet til (fx kost og motion)
+Være afhængig af hjælp fra familie og venner
+Hvor stort besvær har du ved at løfte og bære 5 kg?
+Hvor stort besvær har du ved at gå igennem et lokale?
+Hvor stort besvær har du ved at komme op fra en stol eller en seng?
+Hvor stort besvær har du ved at gå op af 10 trappetrin?
+Hvor mange gange er du faldet inden for det sidste år?
+Har eller havde dine forældre diabetes (sukkersyge)?
+Har eller havde dine søskende diabetes (sukkersyge)?
+Har en læge nogensinde fortalt dig, at du har diabetes (sukkersyge)?
+Hvilken type diabetes har du?
+diabetes_age_1
+Har en læge nogensinde fortalt dig, at du har diabetisk fodsygdom?Fx neuropati
+Har du fået undersøgt dine fødder ved en fodterapeut inden for de sidste 24 måneder?
+Har en læge nogensinde fortalt dig, at du har diabetisk øjensygdom?Fx retinopati
+Har du fået undersøgt dine øjne ved en øjenlæge inden for de sidste 24 måneder?
+At du føler dig skræmt ved tanken om at leve med diabetes?
+At du føler dig nedtrykt ved tanken om at leve med diabetes?
+At du er bekymret for fremtiden og risikoen for alvorlige komplikationer?
+At du føler, at din diabetes tager for meget af din energi mentalt og fysisk i hverdagen?
+At kunne magte komplikationer til diabetes?
+Jeg føler mig godt informeret om sundhed
+Jeg har nok information til, at jeg kan tage mig af mine helbredsproblemer
+Jeg er sikker på, at jeg har nok information til at tage mig bedst muligt af mit helbred
+Jeg har al den information, jeg behøver for at passe på mit helbred
+Jeg bruger en hel del tid på at tage mig af mit helbred og min sundhed
+Jeg planlægger, hvordan jeg holder mig sund og rask
+Jeg tager mig tid til at leve sundt, uanset hvad der ellers sker i mit liv
+Jeg sætter mine egne mål for min sundhed
+Der er ting, jeg gør regelmæssigt for at blive sundere
+Sikre mig, at sundhedsprofessionelle forstår mine problemer rigtigt
+Være i stand til at tale om mine helbredsproblemer med en sundhedsprofessionel
+Have gode samtaler om mit helbred med læger
+Blive ved med at spørge den sundhedsprofessionelle, indtil jeg har forstået det, jeg har brug for
+Stille spørgsmål til sundhedsprofessionelle for at få den information, jeg har brug for
+Finde de rigtige tilbud i sundhedsvæsenet
+Få en tid hos de sundhedsprofessionelle, jeg har brug for
+Afgøre, hvilken type sundhedsprofessionel, jeg har brug for at opsøge
+Finde frem til det rigtige sted at få de sundhedsydelser, jeg har brug for
+Finde ud af, hvilke sundhedsydelser jeg har ret til
+Finde frem til, hvad der er den bedste sundhedsydelse for mig
+Udfylde skemaer med sundhedsoplysninger rigtigt
+Præcist følge de anvisninger, jeg får af sundhedsprofessionelle
+Læse og forstå skriftlig information om sundhed
+Læse og forstå al information på medicinpakninger
+De næste spørgsmål handler om graviditet. Har du været gravid?
+Fødsler
+Spontan abort
+Provokeret abort
+Går du med et graviditetsønske?
+Hvor længe har du forsøgt at blive gravid? (Måneder)
+Har du opsøgt din egen læge for at drøfte, hvordan du opnår de bedste betingelser for en sund graviditet?
+Kunne du tænke dig at snakke med din læge eller anden behandler om, hvordan man opnår de bedste betingelser for en sund graviditet?
+Var din sidste/nuværende graviditet planlagt, delvist planlagt eller ikke planlagt overhovedet?
+Hvor længe prøvede du at blive gravid, før det lykkedes?
+Fik du nogen form for fertilitetsbehandling forud for din sidste/nuværende graviditet?
+År:
+Måneder:
+Ved ikke
+Ønsker ikke at svare
+År:
+Måneder:
+Er der nogensinde en læge, som har fortalt dig at du havde polycystisk ovariesyndrom (PCOS)?
+De næste spørgsmål handler om din tandsundhed Hvordan vil du overordnet vurdere sundhedstilstanden i dine tænder og tandkød?
+Næsten alle voksne har fået trukket tænder ud. Hvor mange af dine egne tænder har du tilbage? 
+Voksne har 28 tænder + 4 visdomstænder, der ikke medregnes. Svarkategorien ’Alle tænder tilbage’ skal derfor bruges, selvom en eller flere visdomstænder er f
+Tror du, at du har paradentose? Paradentose er også kendt som ’de løse tænders sygdom’ eller parodontitis.
+Har du fået behandling for paradentose, fx udvidet tandrensning og tandrodsrensning, også kaldet ’dybderensning’?
+Tandpine
+Tandmobilitet (løse tænder), der ikke er relateret til et traume (uheld)
+Behandlede eller ubehandlede huller i tænderne (karies)
+Behov for rodbehandling af en tand, som ikke blev udført
+Dårlig ånde (ikke morgenånde)
+Mundtørhed om natten
+Mundtørhed om dagen
+Smerter i kæbe- eller tindingeregionen, når du åbner munden eller bevæger kæben fremad eller til siden
+Smerter i kæben eller tindingeregionen, når du tygger hård eller sej mad
+Klik i kæbeleddet, når du åbner munden
+Kræft i munden
+Lugte- eller smagsforstyrrelser, der ikke er relateret til COVID-19
+Ingen af ovenstående
+Regelmæssigt eftersyn/undersøgelse
+Smerter
+Tandkødsbetændelse
+Karies/hul i en eller flere tænder
+Rodbehandling
+Andre tandproblemer
+Ved ikke
+Uanset min vægt føler jeg mig lige så kompetent som alle andre
+Jeg er mindre tiltrækkende end de fleste på grund af min vægt
+Jeg er meget nervøs over min vægt, fordi jeg er bange for, at det påvirker, hvad andre tænker om mig
+Jeg ville ønske, at jeg kunne ændre min vægt drastisk
+Når jeg tænker meget på min vægt føler jeg mig nedtrykt
+Jeg hader mig selv på grund af min vægt
+Min vægt har stor betydning for, hvordan jeg vurderer min værdi som person
+Jeg føler ikke, at jeg fortjener at have et godt socialt liv på grund af min vægt
+Jeg er OK med den vægt, jeg har
+På grund af min vægt føler jeg ikke, at jeg er mit sande jeg
+På grund af min vægt forstår jeg ikke, at nogen attraktive personer ville have lyst til at date mig
+Er du gift eller i et parforhold?
+Hvor længe har du været gift eller i dette parhold?
+År:
+Bor du sammen med din ægtefælle/partner?
+Mit forhold til min partner gør mig glad
+Jeg har et varmt og trygt forhold til min partner
+Hvor givende er dit forhold til din partner
+Hvor tilfreds er du generelt med dit parforhold?
+Udadvendt, entusiastisk
+Kritisk, stridbar
+Pålidelig, selvdisciplineret
+Ængstelig, nem at ryste
+Åben for nye oplevelser, kompleks
+Reserveret, stille
+Sympatisk, varm
+Uorganiseret, skødesløs
+Rolig, emotionel stabil
+Konventionel, ikke-kreativ
+Tror du, at fordele ved brug af kunstig intelligens i sundhedsvæsenet, overstiger risici?
+Har du prøvet at bruge ChatGPT?
+Du søger efter information til at forbedre din livsstil. En chatbot giver dig forslag. Vil du generelt stole på disse?
+Du søger efter information til at forbedre din livsstil. En chatbot giver dig forslag. Vil du generelt stole på disse?
+En chatbot giver en diagnose baseret på detaljeret information om dine symptomer og medicinhistorik. Vil du stole på denne vurdering?
+Du oplever akutte symptomer og kontakter derfor alarmcentralen. En chatbot vurderer alvoren af dine symptomer. Vil du stole på denne vurdering?
+Du oplever akutte symptomer og kontakter derfor din praktiserende læge. En chatbot vurderer alvoren af dine symptomer. Vil du stole på denne vurdering?
+Tekst og tal fra dine journaler
+Scanningsbilleder fra hospitalet
+Lydoptagelser af konsultationer
+Genetisk information
+Tekst og tal fra dine journaler
+Scanningsbilleder fra hospitalet
+Lydoptagelser af konsultationer
+Genetisk information
+Hvilken kostform følger du? Vælg den kategori, der bedst beskriver din kost. Med kød menes alle typer kød fra dyr (oksekød, gris, fjerkræ, fisk, og lignende).
+Hvor længe har du fulgt denne kostform?
+Vi er glade for at du vil hjælpe os. De sidste spørgsmål i undersøgelsen handler også om din kost, men er lidt mere detaljerede.
+Vi håber du også har lyst til at svare på dem, så vi lærer mere om kostens betydning for vores sundhed. Det tager ca. 5
+Frugt (fx et helt æble, en skive melon, en lille skål frugtsalat, bær eller frugtgrød)
+Grøntsager (fx en avocado, en gulerod, en håndfuld cherrytomater, en lille skål råkost, en stor skål grøn salat, en portion rødkål)
+Rugbrød
+Groft/fuldkorns franskbrød eller boller
+Lyst brød eller boller
+Yoghurt eller A38 (<1.5% fedt)
+Skyr eller Ymer (<1.5% fedt)
+Ost (<13% fedt el. 20+)
+Okse- eller svinekød (fx en burger, en lille bøf eller kotelet, to frikadeller, en sammenkogt kødret)
+Kylling (fx et kyllingebryst eller -lår)
+Fisk (fx en laksefilet, en dåse makrel i tomat, to fiskefrikadeller)
+Skaldyr (fx rejer, muslinger)
+Hele bønner eller linser (fx kikærter, kidneybønner eller butter beans, en halv dåse eller tilberedt fra tørrede bønner, hele eller fx som hummus)
+Plantebaseret køderstatningsprodukter (fx en planteburger eller to plantepølser)
+Olivenolie, rapsolie eller plantemargarine til stegning eller som dressing (fx en spiseske)
+Kokosolie, palmin eller palmeolie til stegning eller som dressing (fx en spiseske)
+Smør (fx en spiseske)
+Desserter eller kager (fx en is, et stykke skærekage og lignende)
+Slik (fx nogle stykker chokolade, bolsjer, vingummi, lakrids og lignende)
+Snacks (fx en håndfuld peanuts, chips, nachos, popcorn og lignende)
+Andre nødder
+Sodavand eller cola med sukker
+Sodavand eller cola uden sukker (light eller zero)
+Juice
+Læskedrik eller saftevand
+Mælk
+Postevand eller kildevand uden brus
+Kaffe
+Te
+Energidrik (Red Bull eller lignende)
+Alkoholfri øl eller vin
+Øl eller vin indeholdende alkohol
+Steno Diabetes Center Aarhus ønsker løbende at opnå ny viden om sundhed og sygdom. Vi vil derfor spørge dig, om du kunne tænke dig at deltage i lignende undersøgelser i fremtiden?
+:::
+
