@@ -35,8 +35,9 @@ Most of the registers data are available more than 20 years before inclusion in 
 ## List of variables
 This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project
 
-::: {.callout-warning collapse="true"}
 ## 2024 Codebook
+<details class="custom-details">
+<summary>2024 Codebook</summary>
 
 | Variabelnavn | Spørgsmålstekst | Svarværdi/tekstlængde | Svartekst |
 |---|---|---|---|
@@ -51,10 +52,13 @@ This is where I would put lists of the specific variables from each wave in the 
 | weight_1 | Weight_1 |  | Numerisk variabel uden format |
 | smoke | Ryger du? | 1 | 1) Ja, hver dag, 2) Ja, mindst én gang om ugen, 3) Ja, sjældnere end hver uge, 4) Nej, jeg er holdt op, 5) Nej, jeg har aldrig røget |
 | alcohol | Hvor tit drikker du noget, der indeholder alkohol? | 1 | 1) Aldrig |
-::: 
 
-::: {.callout-warning collapse="true"}
+</details>
+
 ## 2024 Questionnaire
+
+<details class="custom-details">
+<summary>2024 Questionnaire</summary>
 
 Respondentnummer <br>
 Strata <br>
@@ -319,5 +323,35 @@ Energidrik (Red Bull eller lignende) <br>
 Alkoholfri øl eller vin <br>
 Øl eller vin indeholdende alkohol <br>
 Steno Diabetes Center Aarhus ønsker løbende at opnå ny viden om sundhed og sygdom. Vi vil derfor spørge dig, om du kunne tænke dig at deltage i lignende undersøgelser i fremtiden? <br>
-:::
+
+</details>
+
+.custom-details {
+  margin-bottom: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.custom-details summary {
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.custom-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.custom-details summary::after {
+  content: "⌄";
+  float: right;
+  transition: transform 0.2s ease;
+}
+
+.custom-details[open] summary::after {
+  transform: rotate(180deg);
+}
+
 
