@@ -134,8 +134,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#questionnaire-data" id="toc-questionnaire-data" class="nav-link active" data-scroll-target="#questionnaire-data">Questionnaire data</a></li>
   <li><a href="#register-data" id="toc-register-data" class="nav-link" data-scroll-target="#register-data">Register data</a></li>
   <li><a href="#list-of-variables" id="toc-list-of-variables" class="nav-link" data-scroll-target="#list-of-variables">List of variables</a></li>
-  <li><a href="#codebook" id="toc-codebook" class="nav-link" data-scroll-target="#codebook">2020 Codebook</a></li>
-  <li><a href="#codebook-1" id="toc-codebook-1" class="nav-link" data-scroll-target="#codebook-1">2024 Codebook</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/steno-aarhus/hicd/edit/main/available-data/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/steno-aarhus/hicd/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/steno-aarhus/hicd/blob/main/available-data/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -201,26 +199,47 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="list-of-variables">List of variables</h2>
 <p>This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project</p>
 <style>
+.custom-details {
+  margin-bottom: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.custom-details summary {
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.custom-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.custom-details summary::after {
+  content: "⌄";
+  float: right;
+  transition: transform 0.2s ease;
+}
+
+.custom-details[open] summary::after {
+  transform: rotate(180deg);
+}
+
 details.custom-details table {
-font-size: 0.85em;
-line-height: 1.2;
+  font-size: 0.85em;
+  line-height: 1.2;
 }
 
 details.custom-details th,
 details.custom-details td {
-padding: 4px 8px;
+  padding: 4px 8px;
 }
 </style>
 <details class="custom-details">
 <summary>
 2020 Codebook
-</summary>
-</details></section>
-<section id="codebook" class="level2">
-<h2 class="anchored" data-anchor-id="codebook">2020 Codebook</h2>
-<details class="custom-details">
-<summary>
-2024 Codebook
 </summary>
 <table class="caption-top table">
 <colgroup>
@@ -1084,9 +1103,6 @@ padding: 4px 8px;
 </table>
 </details>
 <div class="line-block"></div>
-</section>
-<section id="codebook-1" class="level2">
-<h2 class="anchored" data-anchor-id="codebook-1">2024 Codebook</h2>
 <details class="custom-details">
 <summary>
 2024 Codebook
