@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-b2decb1deadbaa156a00df29d0031ec9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f7eedf44c697082d32d5571b72b97840.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-a40eb39646c8a983b1b3e5b7a7dde488.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-f7eedf44c697082d32d5571b72b97840.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-91a300d176d687720b1cc1de774247e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a8684c80538e086417e6457497e7479f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-91a300d176d687720b1cc1de774247e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -136,7 +136,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#list-of-variables" id="toc-list-of-variables" class="nav-link" data-scroll-target="#list-of-variables">List of variables</a></li>
   <li><a href="#codebook" id="toc-codebook" class="nav-link" data-scroll-target="#codebook">2020 Codebook</a></li>
   <li><a href="#codebook-1" id="toc-codebook-1" class="nav-link" data-scroll-target="#codebook-1">2024 Codebook</a></li>
-  <li><a href="#questionnaire" id="toc-questionnaire" class="nav-link" data-scroll-target="#questionnaire">2024 Questionnaire</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/steno-aarhus/hicd/edit/main/available-data/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/steno-aarhus/hicd/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/steno-aarhus/hicd/blob/main/available-data/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -201,7 +200,22 @@ ul.task-list li input[type="checkbox"] {
 <section id="list-of-variables" class="level2">
 <h2 class="anchored" data-anchor-id="list-of-variables">List of variables</h2>
 <p>This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project</p>
-</section>
+<style>
+details.custom-details table {
+font-size: 0.85em;
+line-height: 1.2;
+}
+
+details.custom-details th,
+details.custom-details td {
+padding: 4px 8px;
+}
+</style>
+<details class="custom-details">
+<summary>
+2020 Codebook
+</summary>
+</details></section>
 <section id="codebook" class="level2">
 <h2 class="anchored" data-anchor-id="codebook">2020 Codebook</h2>
 <details class="custom-details">
@@ -1079,95 +1093,704 @@ ul.task-list li input[type="checkbox"] {
 </summary>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 4%">
+<col style="width: 2%">
+<col style="width: 61%">
+<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Variabelnavn</th>
-<th>Spørgsmålstekst</th>
-<th>Svarværdi/tekstlængde</th>
-<th>Svartekst</th>
+<th>Questionnaire</th>
+<th>Variable</th>
+<th>Response scales</th>
+<th>Question</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>resp_id1</td>
-<td>Respondentnummer</td>
-<td>10</td>
-<td>Tekstvariabel</td>
+<td>Generic/Social</td>
+<td>Height</td>
+<td>cm</td>
+<td>How tall are you (without shoes)?<br><br>Write height in whole cm.<br><br>If you do not know your exact height, please provide your best estimate.</td>
 </tr>
 <tr class="even">
-<td>strata</td>
-<td>Strata</td>
-<td>1</td>
-<td>1) Kontaktet i 2020 (både personer med diabetes og kontrolgruppen), 2) Nye personer med diabetes siden 2020, 3) Partnere til de nye med diabetes siden 2020, 4) Kontrolgruppe til de nye med diabetes siden 2020</td>
+<td>Generic/Social</td>
+<td>Weight</td>
+<td>kg</td>
+<td>How much do you weigh in whole kg. (without clothes on)?<br><br>Enter weight in whole kg.<br><br>If you do not know your exact weight, please provide your best estimate.</td>
 </tr>
 <tr class="odd">
-<td>understype4</td>
-<td>Undersøgelsestype 4</td>
-<td>1</td>
-<td>1) Personer med diabetes i 2020, 2) Kontrolgruppen i 2020, 3) Nye personer med diabetes siden 2020, 4) Partnere til de nye med diabetes siden 2020, 5) Kontrolgruppe til de nye med diabetes siden 2020, 6) Partnere til kontrolgruppen</td>
+<td>Generic/Social</td>
+<td>Smoke</td>
+<td>1=Daily, 2=Weekly, 3= Less than weekly, 4=Stopped, 5= Never</td>
+<td>do you smoke (Does not apply to e-cigarettes)?</td>
 </tr>
 <tr class="even">
-<td>int_resultat</td>
-<td>Status for undersøgelse</td>
-<td>1</td>
-<td>1) Svar, 2) Delvist gennemført, 3) Nægter, 4) Øvrigt bortfald, 5) Sprogvanskeligheder, 6) Ikke relevant, 9) Ikke kontaktet (døde/udvandret), 10) Ikke svaret</td>
-</tr>
-<tr class="odd">
-<td>kort_langt</td>
-<td>Kort eller langt skema</td>
-<td>1</td>
-<td>1) Langt skema, 2) Kort skema</td>
-</tr>
-<tr class="even">
-<td>hel_delvis</td>
-<td>Registreret som hel eller delvis i systemet</td>
-<td>1</td>
-<td>1) Registreret som hel besvarelse i systemet, 2) Registreret som delvis besvarelse i systemet</td>
-</tr>
-<tr class="odd">
-<td>int_dato2</td>
-<td>Interviewdato</td>
-<td></td>
-<td>Dato</td>
-</tr>
-<tr class="even">
-<td>height_1</td>
-<td>Height_1</td>
-<td></td>
-<td>Numerisk variabel uden format</td>
-</tr>
-<tr class="odd">
-<td>weight_1</td>
-<td>Weight_1</td>
-<td></td>
-<td>Numerisk variabel uden format</td>
-</tr>
-<tr class="even">
-<td>smoke</td>
-<td>Ryger du?</td>
-<td>1</td>
-<td>1) Ja, hver dag, 2) Ja, mindst én gang om ugen, 3) Ja, sjældnere end hver uge, 4) Nej, jeg er holdt op, 5) Nej, jeg har aldrig røget</td>
-</tr>
-<tr class="odd">
+<td>Generic/Social</td>
 <td>alcohol</td>
-<td>Hvor tit drikker du noget, der indeholder alkohol?</td>
-<td>1</td>
-<td>1) Aldrig</td>
+<td>1=Never, 2=Monthly or less, 3=2-4 times a month, 4=2-3 times a week, 5=4 or more times a week</td>
+<td>How often do you have drink containing alcohol?</td>
+</tr>
+<tr class="odd">
+<td>Generic/Social</td>
+<td>alcohol_con</td>
+<td>1=1 or 2, 2=3 of 4, 3=5 or 6, 4=7 to 9, 5=10 or more</td>
+<td>How many units do you usually drink when you drink alcohol?</td>
+</tr>
+<tr class="even">
+<td>Generic/Social</td>
+<td>bingedrink</td>
+<td>1=Never, 2=Less than monthly, 3=Monthly, 4=Weekly, 5=Almost daily or daily</td>
+<td>How often do you drink 5 units or more on the same occasion?</td>
+</tr>
+<tr class="odd">
+<td>Generic/Social</td>
+<td>activitylevel</td>
+<td>1=Engages in hard training and competitive sports regularly, several times per week, 2=Engages in recreational exercise or performs heavy gardening or similar activities for at least 4 hours per week, 3=Walks, cycles, or engages in other light physical activity for at least 4 hours per week (including Sunday walks, light gardening, and cycling or walking to work), 4=Reads, watches television, or engages in other sedentary activities</td>
+<td>If you look at the past year, what would best describe your physical activity during leisure time?</td>
+</tr>
+<tr class="even">
+<td>WHO5</td>
+<td>who5_1</td>
+<td>0=At no time, 1=Some of the time, 2=Less than half of the time, 3=More than half of the time, 4=Most of the time, 5=All the time</td>
+<td>How have you felt over the past two weeks. In the past two weeks I have been happy and in a good mood</td>
+</tr>
+<tr class="odd">
+<td>WHO5</td>
+<td>who5_2</td>
+<td>0=At no time, 1=Some of the time, 2=Less than half of the time, 3=More than half of the time, 4=Most of the time, 5=All the time</td>
+<td>How have you felt over the past two weeks. In the past two weeks I have felt calm and relaxed</td>
+</tr>
+<tr class="even">
+<td>WHO5</td>
+<td>who5_3</td>
+<td>0=At no time, 1=Some of the time, 2=Less than half of the time, 3=More than half of the time, 4=Most of the time, 5=All the time</td>
+<td>How have you felt over the past two weeks. In the past two weeks I have felt active and energetic</td>
+</tr>
+<tr class="odd">
+<td>WHO5</td>
+<td>who5_4</td>
+<td>0=At no time, 1=Some of the time, 2=Less than half of the time, 3=More than half of the time, 4=Most of the time, 5=All the time</td>
+<td>How have you felt over the past two weeks. In the past two weeks I have woken up feeling fresh and well rested</td>
+</tr>
+<tr class="even">
+<td>WHO5</td>
+<td>who5_5</td>
+<td>0=At no time, 1=Some of the time, 2=Less than half of the time, 3=More than half of the time, 4=Most of the time, 5=All the time</td>
+<td>How have you felt over the past two weeks. In the past two weeks my daily life has been filled with things that interest me</td>
+</tr>
+<tr class="odd">
+<td>SF12</td>
+<td>i1</td>
+<td>1=Exellent, 2=Very good, 3=Good, 4=Fair, 5=Poor</td>
+<td>How would you describe your health overall?</td>
+</tr>
+<tr class="even">
+<td>SF12</td>
+<td>i2a</td>
+<td>1=Limited a lot, 2=Limited a little, 3=Not limited at all</td>
+<td>Daily activities. Are you, because of your health, limited in lighter activities, such as moving a table, vacuuming, or cycling?</td>
+</tr>
+<tr class="odd">
+<td>SF12</td>
+<td>i2b</td>
+<td>1=Limited a lot, 2=Limited a little, 3=Not limited at all</td>
+<td>Daily activities. Are you, because of your health, limited in climbing several flights of stairs?</td>
+</tr>
+<tr class="even">
+<td>SF12</td>
+<td>i3a</td>
+<td>1=Yes, 2=No</td>
+<td>During the past 4 weeks, how much of the time have you had the following problems with your work or other daily activities due to your physical health? I have accomplished less than I would have liked</td>
+</tr>
+<tr class="odd">
+<td>SF12</td>
+<td>i3b</td>
+<td>1=Yes, 2=No</td>
+<td>During the past 4 weeks, how much of the time have you had the following problems with your work or other daily activities due to your physical health? I have performed my work or other activities less carefully than usual</td>
+</tr>
+<tr class="even">
+<td>SF12</td>
+<td>i4a</td>
+<td>1=Yes, 2=No</td>
+<td>During the past 4 weeks, how much of the time have you had the following problems with your work or other daily activities due to emotional problems? I have accomplished less than I would have liked</td>
+</tr>
+<tr class="odd">
+<td>SF12</td>
+<td>i4b</td>
+<td>1=Yes, 2=No</td>
+<td>During the past 4 weeks, how much of the time have you had the following problems with your work or other daily activities due to emotional problems? I have performed my work or other activities less carefully than usual</td>
+</tr>
+<tr class="even">
+<td>SF12</td>
+<td>i5</td>
+<td>1=All of the time, 2=Most of the time, 3=Some of the time, 4=A little of the time, 5=None of the time</td>
+<td>During the past 4 weeks, to what extent has physical pain made your daily work difficult? Both work outside the home and housework</td>
+</tr>
+<tr class="odd">
+<td>SF12</td>
+<td>i6a</td>
+<td>1=All of the time, 2=Most of the time, 3=Some of the time, 4=A little of the time, 5=None of the time</td>
+<td>During the past 4 weeks, how much of the time have you felt calm and relaxed?</td>
+</tr>
+<tr class="even">
+<td>SF12</td>
+<td>i6b</td>
+<td>1=All of the time, 2=Most of the time, 3=Some of the time, 4=A little of the time, 5=None of the time</td>
+<td>During the past 4 weeks, how much of the time have you felt full of energy?</td>
+</tr>
+<tr class="odd">
+<td>SF12</td>
+<td>i6c</td>
+<td>1=All of the time, 2=Most of the time, 3=Some of the time, 4=A little of the time, 5=None of the time</td>
+<td>During the past 4 weeks, how much of the time have you felt downhearted and low in mood?</td>
+</tr>
+<tr class="even">
+<td>SF12</td>
+<td>i7</td>
+<td>1=All of the time, 2=Most of the time, 3=Some of the time, 4=A little of the time, 5=None of the time</td>
+<td>During the past 4 weeks, how much of the time have your physical health or emotional problems made it difficult for you to see other people? For example, visiting friends or relatives</td>
+</tr>
+<tr class="odd">
+<td>Sactisfaction With Life Scale</td>
+<td>swls1</td>
+<td>1=Strongly disagree, 2=Disagree, 3=Slightly disagree, 4=Neither agree nor disagree, 5=Slightly agree, 6=Agree, 7=Strongly agree</td>
+<td>In most areas, my life is close to my ideal</td>
+</tr>
+<tr class="even">
+<td>Sactisfaction With Life Scale</td>
+<td>swls2</td>
+<td>1=Strongly disagree, 2=Disagree, 3=Slightly disagree, 4=Neither agree nor disagree, 5=Slightly agree, 6=Agree, 7=Strongly agree</td>
+<td>The circumstances of my life are excellent</td>
+</tr>
+<tr class="odd">
+<td>Sactisfaction With Life Scale</td>
+<td>swls3</td>
+<td>1=Strongly disagree, 2=Disagree, 3=Slightly disagree, 4=Neither agree nor disagree, 5=Slightly agree, 6=Agree, 7=Strongly agree</td>
+<td>I am satisfied with my life</td>
+</tr>
+<tr class="even">
+<td>Sactisfaction With Life Scale</td>
+<td>swls4</td>
+<td>1=Strongly disagree, 2=Disagree, 3=Slightly disagree, 4=Neither agree nor disagree, 5=Slightly agree, 6=Agree, 7=Strongly agree</td>
+<td>Until now, I have got the important things that I want in my life</td>
+</tr>
+<tr class="odd">
+<td>Sactisfaction With Life Scale</td>
+<td>swls5</td>
+<td>1=Strongly disagree, 2=Disagree, 3=Slightly disagree, 4=Neither agree nor disagree, 5=Slightly agree, 6=Agree, 7=Strongly agree</td>
+<td>If I could live my life over again, I would change almost nothing.</td>
+</tr>
+<tr class="even">
+<td>The Three-Item Loneliness Scale</td>
+<td>tils_1</td>
+<td>1=Rarely, 2=Occasionally, 3=Often</td>
+<td>How often do you feel isolated from others?</td>
+</tr>
+<tr class="odd">
+<td>The Three-Item Loneliness Scale</td>
+<td>tils_2</td>
+<td>1=Rarely, 2=Occasionally, 3=Often</td>
+<td>How often do you miss someone to be with?</td>
+</tr>
+<tr class="even">
+<td>The Three-Item Loneliness Scale</td>
+<td>tils_3</td>
+<td>1=Rarely, 2=Occasionally, 3=Often</td>
+<td>How often do you feel left out?</td>
+</tr>
+<tr class="odd">
+<td>Munich Chronotype Questionnaire</td>
+<td>mctq_1</td>
+<td>1=Yes, 2=No</td>
+<td>Have you worked shifts or night shifts during the past 3 months?</td>
+</tr>
+<tr class="even">
+<td>Munich Chronotype Questionnaire</td>
+<td>mctq_2</td>
+<td>Days (0-7)</td>
+<td>How many days do you normally work per week</td>
+</tr>
+<tr class="odd">
+<td>Munich Chronotype Questionnaire</td>
+<td>mctq_sleep</td>
+<td>Hour (24-hour format)</td>
+<td>On working days/weekdays: I usually fall asleep at&nbsp; (This is NOT when you go to bed)</td>
+</tr>
+<tr class="even">
+<td>Munich Chronotype Questionnaire</td>
+<td>mctq_wake</td>
+<td>Hour (24-hour format)</td>
+<td>On working days/weekdays: I usually wake up at (This is NOT when you get up)</td>
+</tr>
+<tr class="odd">
+<td>Munich Chronotype Questionnaire</td>
+<td>mctq_free_sleep</td>
+<td>Hour (24-hour format)</td>
+<td>On days off, when I do NOT use an alarm clock: I usually fall asleep at</td>
+</tr>
+<tr class="even">
+<td>Munich Chronotype Questionnaire</td>
+<td>mctq_free_wake</td>
+<td>Hour (24-hour format)</td>
+<td>On days off, when I do NOT use an alarm clock: I usually wake up at (This is NOT when you get up)</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds1</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Palpitations/heart pounding?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds2</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Precordial discomfort?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds3</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Breathlessness without exertion?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds4</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Hyperventilation?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds5</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Hot and cold sweats?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds6</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Dry mouth?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds7</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Frequent loose bowel movements?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds8</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Abdominal pain?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds9</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: feeling bloated/full of gas/distended?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds10</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Diarrhoea?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds11</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Regurgitations?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds12</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Nausea?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds13</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Burning sensation in the upper part of stomacj/epigastrum?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds14</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Pain in the arms or legs?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds15</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Muscle aches or pain?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds16</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Pain in the joints?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds17</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Feeling of parasis or localised weakness?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds18</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Backache?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds19</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Pain moving from one place to another?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds20</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Unpleasant numbness or tingling sensations?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds21</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Concentration difficulties?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds22</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Excessive fatigue?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds23</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Headache?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds24</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Impairment of memory?</td>
+</tr>
+<tr class="odd">
+<td>The BDS checklist</td>
+<td>bds25</td>
+<td>0 Not at all, 1 A little, 2 Somewhat, 3 Quite a lot, 4 Very much</td>
+<td>In the past four weeks, how much have you been bothered by: Dizziness?</td>
+</tr>
+<tr class="even">
+<td>The BDS checklist</td>
+<td>bds26</td>
+<td>1=Yes, 2=No</td>
+<td>Have you, within the past 6 months, been in contact with your general practitioner due to one or more of the preceding symptoms?</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>diseases_1</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): High blood pressure?</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>diseases_2</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Heart attack (Myocardial infarction)?</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>diseases_3</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Angina pectoris</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>diseases_4</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Brain haemorrhage, stroke (blood clot in the brain)?</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>diseases_5</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Chronic bronchitis, emphysema, smoker’s lungs (COPD)?</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>diseases_6</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Brittle bones (osteoporosis)?</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>diseases_7</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Cancer?</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>diseases_8</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Mental disorder that lasted, or has so far lasted, less than 6 months?</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>diseases_9</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): Mental disorder lasting more than 6 months?</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>diseases_10</td>
+<td>0=No, 1=Yes</td>
+<td>For each of these diseases and health problems, please indicate whether you have or have previously had any of these (multiple answers possible): I have never had any of these diseases</td>
+</tr>
+<tr class="odd">
+<td>MTBQ</td>
+<td>mtbq_treat</td>
+<td>1=Yes, 2=No</td>
+<td>Are you receiving treatment or medication for one or more diseases, or are you going to rehabilitation or regular check-ups?</td>
+</tr>
+<tr class="even">
+<td>MTBQ</td>
+<td>mtbq_1</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Take a lot of medication</td>
+</tr>
+<tr class="odd">
+<td>MTBQ</td>
+<td>mtbq_2</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Remenber how and when to take my medication</td>
+</tr>
+<tr class="even">
+<td>MTBQ</td>
+<td>mtbq_3</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Pick up prescription medication</td>
+</tr>
+<tr class="odd">
+<td>MTBQ</td>
+<td>mtbq_4</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Monitor my health condition (e.g.&nbsp;by measuring blood pressure or blood sugar, or by keeping track of my symptoms)</td>
+</tr>
+<tr class="even">
+<td>MTBQ</td>
+<td>mtbq_5</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Make appoinments with the healthcare staff</td>
+</tr>
+<tr class="odd">
+<td>MTBQ</td>
+<td>mtbq_6</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you:&nbsp; Have contact with many different health professionals</td>
+</tr>
+<tr class="even">
+<td>MTBQ</td>
+<td>mtbq_7</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Getting to my appointments with the healthcare staff (e.g.&nbsp;because I have to take time off from work, or provide transport)</td>
+</tr>
+<tr class="odd">
+<td>MTBQ</td>
+<td>mtbq_8</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Get clear and up-to-date information about my state of health</td>
+</tr>
+<tr class="even">
+<td>MTBQ</td>
+<td>mtbq_9</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Implement changes in my lifestyle that I have been advised to do (e.g.&nbsp;diet and exercise)</td>
+</tr>
+<tr class="odd">
+<td>MTBQ</td>
+<td>mtbq_10</td>
+<td>1 Not difficult, 2 Slightly difficult, 3 Moderately difficult, 4 Very difficult, 5 Extremely difficult, 9 Not applicable</td>
+<td>How difficult is the following for you: Be dependent on help from family and friends</td>
+</tr>
+<tr class="even">
+<td>SARC-F</td>
+<td>sarc_1</td>
+<td>0=None, 1=Some, 2=A lot or unable</td>
+<td>How much difficulty do you have lifting and carrying 5 kg?<br>e.g.&nbsp;carrying a bag with 5 litres of milk a few metres</td>
+</tr>
+<tr class="odd">
+<td>SARC-F</td>
+<td>sarc_2</td>
+<td>0=None, 1=Some, 2=A lot, use aids, or unable</td>
+<td>How much difficulty do you have walking across a room?<br>e.g.&nbsp;walking across a 10-metre room without holding onto anything</td>
+</tr>
+<tr class="even">
+<td>SARC-F</td>
+<td>sarc_3</td>
+<td>0=None, 1=Some, 2=A lot or unable without help</td>
+<td>How much difficulty do you have transferring from a chair or a bed?<br>e.g.&nbsp;a dining chair</td>
+</tr>
+<tr class="odd">
+<td>SARC-F</td>
+<td>sarc_4</td>
+<td>0=None, 1=Some, 2=A lot or unable</td>
+<td>How much difficulty do you have climbing a flight of 10 stairs?<br>e.g.&nbsp;think of a staircase you often use, or imagine what it would be like to use a staircase</td>
+</tr>
+<tr class="even">
+<td>SARC-F</td>
+<td>sarc_5</td>
+<td>0=None, 1=1-3 falls, 2=4 or more falls</td>
+<td>How many times have you fallen in the past year?<br>A fall only counts if you ended up lying completely on the ground, regardless of the cause of the fall.</td>
+</tr>
+<tr class="odd">
+<td>Diabetes</td>
+<td>diabetes_parent</td>
+<td>1=Yes, 2=No</td>
+<td>Do your parents have or did you have diabetes?</td>
+</tr>
+<tr class="even">
+<td>Diabetes</td>
+<td>diabetes_sibling</td>
+<td>1=Yes, 2=No</td>
+<td>Do your siblings have, or have they had, diabetes?</td>
+</tr>
+<tr class="odd">
+<td>Diabetes</td>
+<td>diagnose</td>
+<td>1=Yes, 2=No</td>
+<td>Has a doctor ever told you that you have diabetes?</td>
+</tr>
+<tr class="even">
+<td>Diabetes</td>
+<td>diabetes_type</td>
+<td>1=Type 1, 2=Type 2, 3=Other type, 4=Don’t know</td>
+<td>What type of diabetes do you have?</td>
+</tr>
+<tr class="odd">
+<td>Diabetes</td>
+<td>diabetes_age</td>
+<td>Age in years</td>
+<td>How old were you when a doctor told you you had diabetes? Write age</td>
+</tr>
+<tr class="even">
+<td>Diabetes</td>
+<td>neuropathy_1</td>
+<td>1=Yes, 2=No</td>
+<td>Has a doctor ever told you that you have diabetic foot disease, for example neuropathy?</td>
+</tr>
+<tr class="odd">
+<td>Diabetes</td>
+<td>neuropathy_2</td>
+<td>1=Yes, 2=No</td>
+<td>Have you had your feet examined by a podiatrist within the last 24 months?</td>
+</tr>
+<tr class="even">
+<td>Diabetes</td>
+<td>retinopathy_1</td>
+<td>1=Yes, 2=No</td>
+<td>Has a doctor ever told you that you have diabetic eye disease? For example, retinopathy”</td>
+</tr>
+<tr class="odd">
+<td>Diabetes</td>
+<td>retinopathy_2</td>
+<td>1=Yes, 2=No</td>
+<td>Have you had your eyes examined by an ophthalmologist within the last 24 months?</td>
+</tr>
+<tr class="even">
+<td>Problem Areas In Diabetes</td>
+<td>paid1</td>
+<td>1 Not a problem, 2 Minor problem, 3 Moderate problem, 4 Relatively serious problem, 5 Serious problem</td>
+<td>Which of the following diabetes conditions is currently a problem for you? That you feel intimidated by the thought of living with diabetes</td>
+</tr>
+<tr class="odd">
+<td>Problem Areas In Diabetes</td>
+<td>paid2</td>
+<td>1 Not a problem, 2 Minor problem, 3 Moderate problem, 4 Relatively serious problem, 5 Serious problem</td>
+<td>Which of the following diabetes conditions is currently a problem for you? That you feel depressed at the thought of living with diabetes</td>
+</tr>
+<tr class="even">
+<td>Problem Areas In Diabetes</td>
+<td>paid3</td>
+<td>1 Not a problem, 2 Minor problem, 3 Moderate problem, 4 Relatively serious problem, 5 Serious problem</td>
+<td>Which of the following diabetes conditions is currently a problem for you? That you are worried about the future and the risk of serious complications</td>
+</tr>
+<tr class="odd">
+<td>Problem Areas In Diabetes</td>
+<td>paid4</td>
+<td>1 Not a problem, 2 Minor problem, 3 Moderate problem, 4 Relatively serious problem, 5 Serious problem</td>
+<td>Which of the following diabetes conditions is currently a problem for you? That you feel that your diabetes takes too much of your energy mentally and physically in everyday life</td>
+</tr>
+<tr class="even">
+<td>Problem Areas In Diabetes</td>
+<td>paid5</td>
+<td>1 Not a problem, 2 Minor problem, 3 Moderate problem, 4 Relatively serious problem, 5 Serious problem</td>
+<td>Which of the following diabetes conditions is currently a problem for you? To be able to manage complications of diabetes</td>
+</tr>
+<tr class="odd">
+<td>Health Literacy Questionnaire</td>
+<td>hl2_info_1</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I feel well informed about health</td>
+</tr>
+<tr class="even">
+<td>Health Literacy Questionnaire</td>
+<td>hl2_info_2</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I have enough information to take care of my health problems</td>
+</tr>
+<tr class="odd">
+<td>Health Literacy Questionnaire</td>
+<td>hl2_info_3</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I am confident that I have enough information to take the best possible care of my health</td>
+</tr>
+<tr class="even">
+<td>Health Literacy Questionnaire</td>
+<td>hl2_info_4</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I have all the information I need to take care of my health</td>
+</tr>
+<tr class="odd">
+<td>Health Literacy Questionnaire</td>
+<td>hl3_care_1</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I spend a lot of time taking care of my health and wellness</td>
+</tr>
+<tr class="even">
+<td>Health Literacy Questionnaire</td>
+<td>hl3_care_2</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I plan how to stay healthy and fit</td>
+</tr>
+<tr class="odd">
+<td>Health Literacy Questionnaire</td>
+<td>hl3_care_3</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I take the time to live healthy, regardless of what else is going on in my life</td>
+</tr>
+<tr class="even">
+<td>Health Literacy Questionnaire</td>
+<td>hl3_care_4</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>I set my own goals for my health</td>
+</tr>
+<tr class="odd">
+<td>Health Literacy Questionnaire</td>
+<td>hl3_care_5</td>
+<td>0=Strongly diagree, 1=Disagree, 2=Agree, 3=Strongly agree</td>
+<td>There are things I do regularly to get healthier</td>
 </tr>
 </tbody>
 </table>
 </details>
-</section>
-<section id="questionnaire" class="level2">
-<h2 class="anchored" data-anchor-id="questionnaire">2024 Questionnaire</h2>
 <details class="custom-details">
 <summary>
-2024 Questionnaire
+2024 questionnaire
 </summary>
 <p>Respondentnummer <br> Strata <br> Undersøgelestype 4 <br> Status for undersøgelse <br> Kort eller langt skema <br> Registreret som hel eller delvis i systemet <br> Interviewdato <br> Height_1 <br> Weight_1 <br> Ryger du? <br> Hvor tit drikker du noget, der indeholder alkohol? <br> Hvor mange genstande drikker du almindeligvis, når du drikker noget? <br> Hvor tit drikker du 5 genstande eller flere ved samme lejlighed? <br> Hvis du ser på det seneste år, hvad vil du så sige, der passer bedst som beskrivelse af din fysiske aktivitet i fritiden? <br> har jeg været glad og i godt humør <br> har jeg følt mig rolig og afslappet <br> har jeg følt mig aktiv og energisk <br> er jeg vågnet frisk og udhvilet <br> har min dagligdag været fyldt med ting, der interesserer mig <br> Hvordan synes du, dit helbred er alt i alt? <br> Lettere aktiviteter, såsom at flytte et bord, støvsuge eller cykle <br> At gå flere etager op ad trapper <br> Jeg har nået mindre, end jeg gerne ville <br> Jeg har været begrænset i, hvilken slags arbejde eller andre aktiviteter jeg har kunnet udføre <br> Jeg har nået mindre, end jeg gerne ville <br> Jeg har udført mit arbejde eller andre aktiviteter mindre omhyggeligt, end jeg plejer <br> Inden for de sidste 4 uger, hvor meget har fysisk smerte vanskeliggjort dit daglige arbejde? Både arbejde uden for hjemmet og husarbejde <br> har du følt dig rolig og afslappet? <br> har du været fuld af energi? <br> har du følt dig trist til mode? <br> Inden for de sidste 4 uger, hvor stor en del af tiden har dit fysiske helbred <br> eller følelsesmæssige problemer gjort det vanskeligt at se andre mennesker? <br> På de fleste områder er mit liv tæt op ad mit ideal <br> Omstændighederne i mit liv er glimrende <br> Jeg er tilfreds med mit liv <br> Indtil nu har jeg fået de vigtige ting, som jeg ønsker i mit liv <br> Hvis jeg kunne leve mit liv forfra, ville jeg næsten intet forandre <br> Hvor ofte føler du dig isoleret fra andre? <br> Hvor ofte savner du nogen at være sammen med? <br> Hvor ofte føler du dig udenfor? <br> Har du haft skifteholds- eller natarbejde i de seneste 3 måneder? <br> Hvor mange dage arbejder du normalt pr. uge? <br> På ARBEJDSDAGE/HVERDAGE <br> mctq_sleep_b <br> På ARBEJDSDAGE/HVERDAGE <br> mctq_wakeb <br> På FRIDAGE <br> mctq_free_sleepb <br> På FRIDAGE <br> mctq_free_wakeb <br> Hjertebanken eller uro i brystet? <br> Trykken eller smerter i brystet? <br> Forpustethed uden anstrengelse? <br> Anfald med vejrtrækningsbesvær? <br> Varm- eller koldsveden? <br> Mundtørhed? <br> Hyppige, løse afføringer? <br> Mavesmerter? <br> Oppustethed, spændings- eller tyngdefornemmelse i maven? <br> Diarré? <br> Sure opstød? <br> Kvalme? <br> Svie eller smerter i toppen af maven? <br> Smerter i armene eller benene? <br> Muskelsmerter eller ømhed? <br> Ledsmerter? <br> Følelse af lammelse i arme eller ben? <br> Rygsmerter? <br> Smerter som flytter sig fra sted til sted? <br> Ubehagelig dødhedsfornemmelse eller føleforstyrrelser? <br> Koncentrationsbesvær? <br> Træthed? <br> Hovedpine? <br> Hukommelsesbesvær? <br> Svimmelhed? <br> Har du indenfor de seneste 6 måneder været i kontakt med din praktiserende læge pga. et eller flere af de foregående symptomer? <br> Forhøjet blodtryk <br> Blodprop i hjertet <br> Hjertekrampe (angina pectoris) <br> Hjerneblødning, blodprop i hjernen <br> Kronisk bronkitis, for store lunger, rygerlunger (emfysem, KOL) <br> Knogleskørhed (osteoporose) <br> Kræft <br> Psykisk lidelse, som varede eller indtil nu har varet mindre end 6 måneder <br> Psykisk lidelse af mere end 6 måneders varighed <br> Jeg har aldrig haft nogle af disse sygdomme <br> Får du behandling eller medicin for en eller flere sygdomme, eller går du til genoptræning eller regelmæssig kontrol? <br> Tage meget medicin <br> Huske hvordan og hvornår jeg skal tage min medicin <br> Hente medicin på recept <br> Holde øje med min helbredstilstand (fx ved at måle blodtryk eller blodsukker, eller holde øje med mine symptomer) <br> Aftale tider med sundhedspersonalet <br> Have kontakt med mange forskellige sundhedspersoner <br> Komme til mine aftaler med sundhedspersonalet (fx fordi jeg skal have fri fra arbejde, eller sørge for transport) <br> Få klar og opdateret besked om min helbredstilstand <br> Gennemføre ændringer i min livsstil, som jeg er blevet rådet til (fx kost og motion) <br> Være afhængig af hjælp fra familie og venner <br> Hvor stort besvær har du ved at løfte og bære 5 kg? <br> Hvor stort besvær har du ved at gå igennem et lokale? <br> Hvor stort besvær har du ved at komme op fra en stol eller en seng? <br> Hvor stort besvær har du ved at gå op af 10 trappetrin? <br> Hvor mange gange er du faldet inden for det sidste år? <br> Har eller havde dine forældre diabetes (sukkersyge)? <br> Har eller havde dine søskende diabetes (sukkersyge)? <br> Har en læge nogensinde fortalt dig, at du har diabetes (sukkersyge)? <br> Hvilken type diabetes har du? <br> diabetes_age_1 <br> Har en læge nogensinde fortalt dig, at du har diabetisk fodsygdom?Fx neuropati <br> Har du fået undersøgt dine fødder ved en fodterapeut inden for de sidste 24 måneder? <br> Har en læge nogensinde fortalt dig, at du har diabetisk øjensygdom?Fx retinopati <br> Har du fået undersøgt dine øjne ved en øjenlæge inden for de sidste 24 måneder? <br> At du føler dig skræmt ved tanken om at leve med diabetes? <br> At du føler dig nedtrykt ved tanken om at leve med diabetes? <br> At du er bekymret for fremtiden og risikoen for alvorlige komplikationer? <br> At du føler, at din diabetes tager for meget af din energi mentalt og fysisk i hverdagen? <br> At kunne magte komplikationer til diabetes? <br> Jeg føler mig godt informeret om sundhed <br> Jeg har nok information til, at jeg kan tage mig af mine helbredsproblemer <br> Jeg er sikker på, at jeg har nok information til at tage mig bedst muligt af mit helbred <br> Jeg har al den information, jeg behøver for at passe på mit helbred <br> Jeg bruger en hel del tid på at tage mig af mit helbred og min sundhed <br> Jeg planlægger, hvordan jeg holder mig sund og rask <br> Jeg tager mig tid til at leve sundt, uanset hvad der ellers sker i mit liv <br> Jeg sætter mine egne mål for min sundhed <br> Der er ting, jeg gør regelmæssigt for at blive sundere <br> Sikre mig, at sundhedsprofessionelle forstår mine problemer rigtigt <br> Være i stand til at tale om mine helbredsproblemer med en sundhedsprofessionel <br> Have gode samtaler om mit helbred med læger <br> Blive ved med at spørge den sundhedsprofessionelle, indtil jeg har forstået det, jeg har brug for <br> Stille spørgsmål til sundhedsprofessionelle for at få den information, jeg har brug for <br> Finde de rigtige tilbud i sundhedsvæsenet <br> Få en tid hos de sundhedsprofessionelle, jeg har brug for <br> Afgøre, hvilken type sundhedsprofessionel, jeg har brug for at opsøge <br> Finde frem til det rigtige sted at få de sundhedsydelser, jeg har brug for <br> Finde ud af, hvilke sundhedsydelser jeg har ret til <br> Finde frem til, hvad der er den bedste sundhedsydelse for mig <br> Udfylde skemaer med sundhedsoplysninger rigtigt <br> Præcist følge de anvisninger, jeg får af sundhedsprofessionelle <br> Læse og forstå skriftlig information om sundhed <br> Læse og forstå al information på medicinpakninger <br> De næste spørgsmål handler om graviditet. Har du været gravid? <br> Fødsler <br> Spontan abort <br> Provokeret abort <br> Går du med et graviditetsønske? <br> Hvor længe har du forsøgt at blive gravid? (Måneder) <br> Har du opsøgt din egen læge for at drøfte, hvordan du opnår de bedste betingelser for en sund graviditet? <br> Kunne du tænke dig at snakke med din læge eller anden behandler om, hvordan man opnår de bedste betingelser for en sund graviditet? <br> Var din sidste/nuværende graviditet planlagt, delvist planlagt eller ikke planlagt overhovedet? <br> Hvor længe prøvede du at blive gravid, før det lykkedes? <br> Fik du nogen form for fertilitetsbehandling forud for din sidste/nuværende graviditet? <br> År: <br> Måneder: <br> Ved ikke <br> Ønsker ikke at svare <br> År: <br> Måneder: <br> Er der nogensinde en læge, som har fortalt dig at du havde polycystisk ovariesyndrom (PCOS)? <br> De næste spørgsmål handler om din tandsundhed Hvordan vil du overordnet vurdere sundhedstilstanden i dine tænder og tandkød? <br> Næsten alle voksne har fået trukket tænder ud. Hvor mange af dine egne tænder har du tilbage? <br> Voksne har 28 tænder + 4 visdomstænder, der ikke medregnes. Svarkategorien ’Alle tænder tilbage’ skal derfor bruges, selvom en eller flere visdomstænder er fjernet <br> Tror du, at du har paradentose? Paradentose er også kendt som ’de løse tænders sygdom’ eller parodontitis <br> Har du fået behandling for paradentose, fx udvidet tandrensning og tandrodsrensning, også kaldet ’dybderensning’? <br> Tandpine <br> Tandmobilitet (løse tænder), der ikke er relateret til et traume (uheld) <br> Behandlede eller ubehandlede huller i tænderne (karies) <br> Behov for rodbehandling af en tand, som ikke blev udført <br> Mundtørhed om natten <br> Mundtørhed om dagen <br> Smerter i kæbe- eller tindingeregionen, når du åbner munden eller bevæger kæben fremad eller til siden <br> Smerter i kæben eller tindingeregionen, når du tygger hård eller sej mad <br> Klik i kæbeleddet, når du åbner munden <br> Kræft i munden <br> Lugte- eller smagsforstyrrelser, der ikke er relateret til COVID-19 <br> Ingen af ovenstående <br> Regelmæssigt eftersyn/undersøgelse <br> Smerter <br> Tandkødsbetændelse <br> Karies/hul i en eller flere tænder <br> Rodbehandling <br> Andre tandproblemer <br> Ved ikke <br> Uanset min vægt føler jeg mig lige så kompetent som alle andre <br> Jeg er mindre tiltrækkende end de fleste på grund af min vægt <br> Jeg er meget nervøs over min vægt, fordi jeg er bange for, at det påvirker, hvad andre tænker om mig <br> Jeg ville ønske, at jeg kunne ændre min vægt drastisk <br> Når jeg tænker meget på min vægt føler jeg mig nedtrykt <br> Jeg hader mig selv på grund af min vægt <br> Min vægt har stor betydning for, hvordan jeg vurderer min værdi som person <br> Jeg føler ikke, at jeg fortjener at have et godt socialt liv på grund af min vægt <br> Jeg er OK med den vægt, jeg har <br> På grund af min vægt føler jeg ikke, at jeg er mit sande jeg <br> På grund af min vægt forstår jeg ikke, at nogen attraktive personer ville have lyst til at date mig <br> Er du gift eller i et parforhold? <br> Hvor længe har du været gift eller i dette parhold? <br> År: <br> Bor du sammen med din ægtefælle/partner? <br> Mit forhold til min partner gør mig glad <br> Jeg har et varmt og trygt forhold til min partner <br> Hvor givende er dit forhold til din partner <br> Hvor tilfreds er du generelt med dit parforhold? <br> Udadvendt, entusiastisk <br> Kritisk, stridbar <br> Pålidelig, selvdisciplineret <br> Ængstelig, nem at ryste <br> Åben for nye oplevelser, kompleks <br> Reserveret, stille <br> Sympatisk, varm <br> Uorganiseret, skødesløs <br> Rolig, emotionel stabil <br> Konventionel, ikke-kreativ <br> Tror du, at fordele ved brug af kunstig intelligens i sundhedsvæsenet, overstiger risici? <br> Har du prøvet at bruge ChatGPT? <br> Du søger efter information til at forbedre din livsstil. En chatbot giver dig forslag. Vil du generelt stole på disse? <br> Du søger efter information til at forbedre din livsstil. En chatbot giver dig forslag. Vil du generelt stole på disse? <br> En chatbot giver en diagnose baseret på detaljeret information om dine symptomer og medicinhistorik. Vil du stole på denne vurdering? <br> Du oplever akutte symptomer og kontakter derfor alarmcentralen. En chatbot vurderer alvoren af dine symptomer. Vil du stole på denne vurdering? <br> Du oplever akutte symptomer og kontakter derfor din praktiserende læge. En chatbot vurderer alvoren af dine symptomer. Vil du stole på denne vurdering? <br> Tekst og tal fra dine journaler <br> Scanningsbilleder fra hospitalet <br> Lydoptagelser af konsultationer <br> Genetisk information <br> Tekst og tal fra dine journaler <br> Scanningsbilleder fra hospitalet <br> Lydoptagelser af konsultationer <br> Genetisk information <br> Hvilken kostform følger du? Vælg den kategori, der bedst beskriver din kost. Med kød menes alle typer kød fra dyr (oksekød, gris, fjerkræ, fisk, og lignende). <br> Hvor længe har du fulgt denne kostform? <br> Vi er glade for at du vil hjælpe os. De sidste spørgsmål i undersøgelsen handler også om din kost, men er lidt mere detaljerede. <br> Vi håber du også har lyst til at svare på dem, så vi lærer mere om kostens betydning for vores sundhed. Det tager ca. 5 <br> Frugt (fx et helt æble, en skive melon, en lille skål frugtsalat, bær eller frugtgrød) <br> Grøntsager (fx en avocado, en gulerod, en håndfuld cherrytomater, en lille skål råkost, en stor skål grøn salat, en portion rødkål) <br> Rugbrød <br> Groft/fuldkorns franskbrød eller boller <br> Lyst brød eller boller <br> Yoghurt eller A38 (&lt;1.5% fedt) <br> Skyr eller Ymer (&lt;1.5% fedt) <br> Ost (&lt;13% fedt el. 20+) <br> Okse- eller svinekød (fx en burger, en lille bøf eller kotelet, to frikadeller, en sammenkogt kødret) <br> Kylling (fx et kyllingebryst eller -lår) <br> Fisk (fx en laksefilet, en dåse makrel i tomat, to fiskefrikadeller) <br> Skaldyr (fx rejer, muslinger) <br> Hele bønner eller linser (fx kikærter, kidneybønner eller butter beans, en halv dåse eller tilberedt fra tørrede bønner, hele eller fx som hummus) <br> Plantebaseret køderstatningsprodukter (fx en planteburger eller to plantepølser) <br> Olivenolie, rapsolie eller plantemargarine til stegning eller som dressing (fx en spiseske) <br> Kokosolie, palmin eller palmeolie til stegning eller som dressing (fx en spiseske) <br> Smør (fx en spiseske) <br> Desserter eller kager (fx en is, et stykke skærekage og lignende) <br> Slik (fx nogle stykker chokolade, bolsjer, vingummi, lakrids og lignende) <br> Snacks (fx en håndfuld peanuts, chips, nachos, popcorn og lignende) <br> Andre nødder <br> Sodavand eller cola med sukker <br> Sodavand eller cola uden sukker (light eller zero) <br> Juice <br> Læskedrik eller saftevand <br> Mælk <br> Postevand eller kildevand uden brus <br> Kaffe <br> Te <br> Energidrik (Red Bull eller lignende) <br> Alkoholfri øl eller vin <br> Øl eller vin indeholdende alkohol <br> Steno Diabetes Center Aarhus ønsker løbende at opnå ny viden om sundhed og sygdom. Vi vil derfor spørge dig, om du kunne tænke dig at deltage i lignende undersøgelser i fremtiden? <br></p>
 </details>
