@@ -36,6 +36,37 @@ Most of the registers data are available more than 20 years before inclusion in 
 This is where I would put lists of the specific variables from each wave in the cohort and the register variables available within the project
 
 <style>
+.custom-details {
+  margin-bottom: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.custom-details summary {
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.custom-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.custom-details summary::after {
+  content: "⌄";
+  float: right;
+  transition: transform 0.2s ease;
+}
+
+.custom-details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+details.custom-details table {
+  font-size: 0.85em;
+  line-height: 1.2;
 details.custom-details table {
 font-size: 0.85em;
 line-height: 1.2;
@@ -50,10 +81,7 @@ padding: 4px 8px;
 <details class="custom-details">
 <summary>2020 Codebook</summary>
 
-## 2020 Codebook
 
-<details class="custom-details">
-<summary>2024 Codebook</summary>
 
 | Questionnaire              | Variablename      | Label                                                                                                                              | List of Value                                                                                                                                                               | Question                                                                                                                                                                                                                                                              |
 | -------------------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -182,7 +210,6 @@ padding: 4px 8px;
 
 
 
-## 2024 Codebook
 <details class="custom-details">
 <summary>2024 Codebook</summary>
 
