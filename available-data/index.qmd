@@ -4,26 +4,52 @@ description: "The data available in HICD"
 ---
 
 ## Questionnaire data
-The following information was collected through questionnaire between Nov 18 2020 and Feb 7 2021: 
+The following information was collected through questionnaire in 2020: 
 
-* Anthropometrics
+* Anthropometrics (BMI, blood pressure)
 * Dental health
+* Diabetes distress (PAID)
 * Diabetes-specific problems and motivation
 * Diabetic status
 * Dyspnoea
-* Fertility
-* Sexual dysfunction
+* Fertility (miscarriagesm abortions, contraceptives)
+* Health behavior (Smoking, alcohol, leisure time activity level)
+* Mental well-being (WHO5)
+* Patient Activation Measure (PAM)
+* Social network
 * Sleeping problems
-* Symptoms and diseases
+* Symptoms and diseases (Stomach, respiratory, pain, sexual dysfunktion, comorbidities)
 * Taste and smell
-* Well-being
+
+
+The following information was collected through questionnaire in 2024:
+
+* Anthropometrics (BMI, blood pressure)
+* Dental health
+* Diabetes distress (PAID)
+* Diabetes-specific problems and motivation
+* Diabetic status
+* Diet
+* Dyspnoea
+* Fertility (miscarriagesm abortions, contraceptives)
+* Health behavior (Smoking, alcohol, leisure time activity level)
+* Health litteracy
+* Loss of muscle mass and strength (SARC-F)
+* Mental well-being (WHO5)
+* Multimorbidity Treatment Burden (MTBQ)
+* Patient Activation Measure (PAM)
+* Perception of AI
+* Personality
+* Social network
+* Sleeping problems
+* Symptoms and diseases (Stomach, respiratory, pain, sexual dysfunktion, comorbidities)
+* Taste and smell
+* Weight Bias Internalization Scale
 
 ## Register data
 The following register data are available in the HICD:
 
-The following register data are available in the HICD.
-
-* Danish National Patinet Register
+* Danish National Patient Register
 * Danish National Health Service Registry
 * Danish National Prescription Register Statistic
 * Clinical Laboratory Information System (LABKA), The Central Denmark Region
