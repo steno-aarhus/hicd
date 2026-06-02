@@ -2,7 +2,7 @@ project:
   type: sdca-theme
 
 website:
-  title: "Health in Central Denmark"
+  title: "Health in Central Denmark (HICD)"
   site-url: "https://steno-aarhus.github.io/hicd/"
   repo-url: "https://github.com/steno-aarhus/hicd"
 
@@ -15,7 +15,7 @@ website:
   navbar:
     pinned: true
     left:
-      - text: "Health in Central Denmark (HICD)"
+      - text: "About HICD"
         href: hicd/index.qmd
       - text: "Available data"
         href: available-data/index.qmd
