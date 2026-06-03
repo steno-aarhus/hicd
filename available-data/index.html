@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="list-of-variables-from-questionnaires">List of variables from questionnaires</h2>
 <style>
 /* =========================
-   BASE BOX
+   BASE: details container
 ========================= */
 
 .custom-details {
@@ -237,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
   background-color: #f8f9fa;
 }
 
-/* summary styling */
+/* summary */
 .custom-details summary {
   font-weight: 600;
   cursor: pointer;
@@ -258,31 +258,29 @@ ul.task-list li input[type="checkbox"] {
   transform: rotate(180deg);
 }
 
-/* =====================================================
-   TABLE 1 + 2 ONLY (clean layout, no overlap)
-
 
 /* =========================
-   TABLE 1 + 2 (STABLE)
+   TABLE 1 + 2 (NORMAL, STABLE)
 ========================= */
 
 .custom-details table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: auto;   /* VIGTIG: ikke fixed */
   font-size: 0.80em;
   line-height: 1.25;
 }
 
-/* FIX FOR OVERLAP (vigtig del) */
+/* normal rendering — ingen splitting */
 .custom-details th,
 .custom-details td {
   padding: 6px 8px;
+  text-align: left;
   vertical-align: top;
 
-  /* stabil teksthåndtering */
   white-space: normal;
-  overflow-wrap: anywhere;
   word-break: normal;
+  overflow-wrap: normal;
 }
 
 
