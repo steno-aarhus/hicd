@@ -17,7 +17,7 @@ In total, 44,648 persons with diabetes were identified. From the remaining popul
 
 We distributed an electronic questionnaire to the eligible members of the cohort on November 18, 2020 and the survey data collection ended on February 7, 2021. In total, 51,854 persons responded to the questionnaire (57.1% of the invited). Among persons with type 1 diabetes 2,832 (55.9%) responded to the survey, among persons with type 2 diabetes 21,140 (53.2%), and of those without diabetes 27,882 (60.4%) responded to the survey. 
 
-![Flowchart](images/flowcharthicd.png)
+![Flowchart](../images/flowcharthicd.png)
 
 ## Follow-up
 The study population will be followed up on questionnaires and registers during follow up until the end of 2030. We plan to send out questionnaire twice during this period. Follow-up questionnaires will be send out to the first invited population even if the first questionnaire was not completed. Register data will be updated every second year. For those who develop diabetes during the follow-up period, we will register the date of diagnosis according to the same algorithm used by the initiation of the HICD cohort. 
