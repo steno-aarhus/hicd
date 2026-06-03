@@ -62,8 +62,7 @@ Most of the registers data are available more than 20 years before inclusion in 
 
 <style>
 /* =========================
-   GLOBAL TABLE STYLE (NO word break)
-   → gælder tabel 1 og 2
+   GLOBAL TABLE STYLE (TABLE 1 + 2)
 ========================= */
 
 .custom-details {
@@ -94,6 +93,7 @@ Most of the registers data are available more than 20 years before inclusion in 
   transform: rotate(180deg);
 }
 
+/* vigtig: stabil tabel */
 .custom-details table {
   font-size: 0.80em;
   line-height: 1.2;
@@ -101,11 +101,12 @@ Most of the registers data are available more than 20 years before inclusion in 
   table-layout: fixed;
 }
 
-/* NO word break (table 1 + 2) */
+/* i stedet for nowrap */
 .custom-details th,
 .custom-details td {
   padding: 4px 8px;
-  white-space: nowrap;
+  white-space: normal;        /* tillader korrekt layout */
+  overflow-wrap: normal;      /* ingen aggressiv breaking */
 }
 
 
