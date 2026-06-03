@@ -90,16 +90,18 @@ Most of the registers data are available more than 20 years before inclusion in 
 }
 
 details.custom-details table {
-  font-size: 0.85em;
+  font-size: 0.80em;
   line-height: 1.2;
-details.custom-details table {
-font-size: 0.85em;
-line-height: 1.2;
+  width: 100%;
+  table-layout: fixed;
 }
 
 details.custom-details th,
 details.custom-details td {
-padding: 4px 8px;
+  padding: 4px 8px;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 </style>
 
