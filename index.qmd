@@ -6,7 +6,7 @@ toc: false
 # Health in Central Denmark
 ### (HICD)
 
-![Eksempel på billede](images/diverse cohort.png){fig-alt="Diverse group in a vector-style illustrated portrait." width="30em"}
+![](images/diverse cohort.png){fig-alt="Diverse group in a vector-style illustrated portrait." width="30em"}
 
 [About HICD](hicd/index.qmd){.btn
 .btn-primary role="button"} [Available data](available-data/index.qmd){.btn
