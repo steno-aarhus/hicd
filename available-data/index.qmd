@@ -62,7 +62,7 @@ Most of the registers data are available more than 20 years before inclusion in 
 
 <style>
 /* =========================
-   GLOBAL TABLE STYLE (TABLE 1 + 2)
+   BASE BOX
 ========================= */
 
 .custom-details {
@@ -73,6 +73,7 @@ Most of the registers data are available more than 20 years before inclusion in 
   background-color: #f8f9fa;
 }
 
+/* summary styling */
 .custom-details summary {
   font-weight: 600;
   cursor: pointer;
@@ -93,22 +94,29 @@ Most of the registers data are available more than 20 years before inclusion in 
   transform: rotate(180deg);
 }
 
-/* vigtig: stabil tabel */
+
+/* =========================
+   TABLE 1 + 2 (STABLE)
+========================= */
+
 .custom-details table {
-  font-size: 0.80em;
-  line-height: 1.2;
   width: 100%;
-  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.80em;
+  line-height: 1.25;
 }
 
-/* i stedet for nowrap */
+/* FIX FOR OVERLAP (vigtig del) */
 .custom-details th,
 .custom-details td {
-  padding: 4px 8px;
-  white-space: normal;        /* tillader korrekt layout */
-  overflow-wrap: normal;      /* ingen aggressiv breaking */
-}
+  padding: 6px 8px;
+  vertical-align: top;
 
+  /* stabil teksthåndtering */
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
 
 /* =========================
    TABLE 3 ONLY (word break)
