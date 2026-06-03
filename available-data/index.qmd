@@ -94,6 +94,9 @@ Most of the registers data are available more than 20 years before inclusion in 
   transform: rotate(180deg);
 }
 
+/* =====================================================
+   TABLE 1 + 2 ONLY (clean layout, no overlap)
+
 
 /* =========================
    TABLE 1 + 2 (STABLE)
@@ -117,6 +120,7 @@ Most of the registers data are available more than 20 years before inclusion in 
   overflow-wrap: anywhere;
   word-break: normal;
 }
+
 
 /* =========================
    TABLE 3 ONLY (word break)
