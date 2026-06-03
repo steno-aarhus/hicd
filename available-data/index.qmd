@@ -61,6 +61,11 @@ Most of the registers data are available more than 20 years before inclusion in 
 ## List of variables from questionnaires
 
 <style>
+/* =========================
+   GLOBAL TABLE STYLE (NO word break)
+   → gælder tabel 1 og 2
+========================= */
+
 .custom-details {
   margin-bottom: 1rem;
   border: 1px solid #d9d9d9;
@@ -89,24 +94,27 @@ Most of the registers data are available more than 20 years before inclusion in 
   transform: rotate(180deg);
 }
 
-details.custom-details table {
+.custom-details table {
   font-size: 0.80em;
   line-height: 1.2;
   width: 100%;
   table-layout: fixed;
 }
 
-/* HEADER: ingen word break */
-details.custom-details th {
+/* NO word break (table 1 + 2) */
+.custom-details th,
+.custom-details td {
   padding: 4px 8px;
   white-space: nowrap;
-  word-break: normal;
-  overflow-wrap: normal;
 }
 
-/* BODY: stadig wrapping */
-details.custom-details td {
-  padding: 4px 8px;
+
+/* =========================
+   TABLE 3 ONLY (word break)
+========================= */
+
+.word-break-table th,
+.word-break-table td {
   white-space: normal;
   word-break: break-word;
   overflow-wrap: break-word;
@@ -482,7 +490,7 @@ details.custom-details td {
 
 ## List of variables from registers
 
-<details class="custom-details">
+<details class="custom-details word-break-table">
 <summary>Statistics Denmark Codebook</summary>
 
 | Register                 | Titel                                                                                 | Tilføjet fra        | Variabelnavn                | Variabel label                                                         | Perioder(kommasepareret liste) |
