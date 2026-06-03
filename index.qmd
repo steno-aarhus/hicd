@@ -4,6 +4,7 @@ toc: false
 
 ::: text-center
 # Health in Central Denmark
+### (HICD)
 
 ![Eksempel på billede](images/diverse cohort.png){fig-alt="Diverse group in a vector-style illustrated portrait." width="30em"}
 
