@@ -96,7 +96,15 @@ details.custom-details table {
   table-layout: fixed;
 }
 
-details.custom-details th,
+/* HEADER: ingen word break */
+details.custom-details th {
+  padding: 4px 8px;
+  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+/* BODY: stadig wrapping */
 details.custom-details td {
   padding: 4px 8px;
   white-space: normal;
