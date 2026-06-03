@@ -62,7 +62,7 @@ Most of the registers data are available more than 20 years before inclusion in 
 
 <style>
 /* =========================
-   BASE BOX
+   BASE: details container
 ========================= */
 
 .custom-details {
@@ -73,7 +73,7 @@ Most of the registers data are available more than 20 years before inclusion in 
   background-color: #f8f9fa;
 }
 
-/* summary styling */
+/* summary */
 .custom-details summary {
   font-weight: 600;
   cursor: pointer;
@@ -94,31 +94,29 @@ Most of the registers data are available more than 20 years before inclusion in 
   transform: rotate(180deg);
 }
 
-/* =====================================================
-   TABLE 1 + 2 ONLY (clean layout, no overlap)
-
 
 /* =========================
-   TABLE 1 + 2 (STABLE)
+   TABLE 1 + 2 (NORMAL, STABLE)
 ========================= */
 
 .custom-details table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: auto;   /* VIGTIG: ikke fixed */
   font-size: 0.80em;
   line-height: 1.25;
 }
 
-/* FIX FOR OVERLAP (vigtig del) */
+/* normal rendering — ingen splitting */
 .custom-details th,
 .custom-details td {
   padding: 6px 8px;
+  text-align: left;
   vertical-align: top;
 
-  /* stabil teksthåndtering */
   white-space: normal;
-  overflow-wrap: anywhere;
   word-break: normal;
+  overflow-wrap: normal;
 }
 
 
