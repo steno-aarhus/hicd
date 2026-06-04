@@ -498,9 +498,7 @@ Most of the registers data are available more than 20 years before inclusion in 
 
 ## List of variables from registers
 
-/* <details class="custom-details word-break-table"> */
-
-<details class="custom-details">
+<details class="custom-details word-break-table">
 <summary>Statistics Denmark Codebook</summary>
 
 | Register                 | Title                                                                                 | Variable                    | Label                                                                  | Periode   |
