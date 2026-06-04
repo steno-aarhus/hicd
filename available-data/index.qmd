@@ -126,8 +126,8 @@ Most of the registers data are available more than 20 years before inclusion in 
  .word-break-table th,
 .word-break-table td {
   white-space: normal;
-  word-break: break-word;
-  overflow-wrap: break-word;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 </style>
 
