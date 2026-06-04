@@ -123,11 +123,9 @@ Most of the registers data are available more than 20 years before inclusion in 
 /* =========================
    TABLE 3 ONLY (word break)
   ========================= */
- .word-break-table th,
-.word-break-table td {
-  white-space: normal;
-  word-break: normal;
-  overflow-wrap: normal;
+.word-break-table th:last-child,
+.word-break-table td:last-child {
+  white-space: nowrap;
 }
 </style>
 
