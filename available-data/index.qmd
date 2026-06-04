@@ -500,7 +500,9 @@ Most of the registers data are available more than 20 years before inclusion in 
 
 ## List of variables from registers
 
-<details class="custom-details word-break-table">
+/* <details class="custom-details word-break-table"> */
+
+<details class="custom-details">
 <summary>Statistics Denmark Codebook</summary>
 
 | Register                 | Titel                                                                                 | Tilføjet fra        | Variabelnavn                | Variabel label                                                         | Perioder(kommasepareret liste) |
