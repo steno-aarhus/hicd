@@ -13,7 +13,7 @@ toc: false
 .btn-primary role="button"}
 
 [How to get data](how-to-get-data/index.qmd){.btn
-.btn-primary role="button"} [Publications](available-data/index.qmd){.btn
+.btn-primary role="button"} [Publications](publications/index.qmd){.btn
 .btn-primary role="button"}
 
 :::
