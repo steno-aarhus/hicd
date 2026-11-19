@@ -302,11 +302,11 @@ ul.task-list li input[type="checkbox"] {
 </summary>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 4%">
+<col style="width: 3%">
 <col style="width: 2%">
-<col style="width: 21%">
-<col style="width: 28%">
-<col style="width: 43%">
+<col style="width: 17%">
+<col style="width: 40%">
+<col style="width: 35%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -421,14 +421,14 @@ ul.task-list li input[type="checkbox"] {
 <td>who5_1</td>
 <td>Have felt cheerful and in good spirits</td>
 <td>5=All the time, 4=Most of the time, 3=More than half of the time, 2=Less than half of the time, 1=Some of the time, 0=At no time</td>
-<td>Hvordan har du følt dig i de seneste to uger. I de sidste 2 uger har jeg været glad og i godt humør</td>
+<td>How have you felt over the past two weeks. In the past two weeks I have been happy and in a good mood</td>
 </tr>
 <tr class="even">
 <td>WHO5</td>
 <td>who5_2</td>
 <td>Have felt calm and relaxed</td>
 <td>5=All the time, 4=Most of the time, 3=More than half of the time, 2=Less than half of the time, 1=Some of the time, 0=At no time</td>
-<td>Hvordan har du følt dig i de seneste to uger. I de sidste 2 uger har jeg følt mig rolig og afslappet</td>
+<td>How have you felt over the past two weeks. In the past two weeks I have felt calm and relaxed</td>
 </tr>
 <tr class="odd">
 <td>WHO5</td>
@@ -579,268 +579,590 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Symptoms</td>
-<td></td>
-<td>How hampered have you been because of these symptoms during the last two weeks</td>
-<td></td>
-<td>How hampered have you been because of these symptoms during the last two weeks</td>
-</tr>
-<tr class="odd">
-<td>Symptoms</td>
-<td>mave_1</td>
+<td>stomach_1</td>
 <td>Heartburn</td>
 <td>1= not at all, 2= a little, 3= moderate, 4= much, 4= extreme</td>
 <td>Heartburn</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Symptoms</td>
-<td>mave_2</td>
+<td>stomach_2</td>
 <td>Constipation</td>
 <td>1= not at all, 2= a little, 3= moderate, 4= much, 4= extreme</td>
 <td>Constipation</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Symptoms</td>
-<td>mave_3</td>
+<td>stomach_3</td>
 <td>Nausea or vomit</td>
 <td>1= not at all, 2= a little, 3= moderate, 4= much, 4= extreme</td>
 <td>Nausea or vomit</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Symptoms</td>
-<td>mave_4</td>
+<td>stomach_4</td>
 <td>Diarré</td>
 <td>1= not at all, 2= a little, 3= moderate, 4= much, 4= extreme</td>
 <td>Diarré</td>
+</tr>
+<tr class="even">
+<td>Symptoms</td>
+<td>stomach_5</td>
+<td>Stomach ache</td>
+<td>1= not at all, 2= a little, 3= moderate, 4= much, 4= extreme</td>
+<td>Stomach ache</td>
 </tr>
 <tr class="odd">
 <td>Symptoms</td>
-<td>mave_5</td>
-<td>Stomach ache</td>
-<td>1= not at all, 2= a little, 3= moderate, 4= much, 4= extreme</td>
-<td>Stomach ache</td>
-</tr>
-<tr class="even">
-<td>Symptoms</td>
-<td>mave_gp</td>
+<td>stomach_gp</td>
 <td>Would you like to talk to a doctor about your stomach troubles?</td>
 <td>1=yes, 0= no, 9=dont know</td>
 <td>Would you like to talk to a doctor about your stomach troubles? only this quest if answer &gt;1 in at least one of the above quests</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Smell and Taste</td>
 <td>smell</td>
 <td>Rating of smell since the last 14 days</td>
-<td>Continous arbitrary 1:100, 1= No smell, 100=perfect smell</td>
+<td>continuous arbitrary 1:100, 1= No smell, 100=perfect smell</td>
 <td>Please rate how good your sense of smell has been on average over the past 14 days</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Smell and Taste</td>
 <td>smell_fanta</td>
 <td>Fantomic smell since the last 14 days</td>
 <td>1=No, 2= yes I experience odors to be distorted, 3= yes I experience odors that are not there, 4= yes both distortion and odors that are not there</td>
 <td>In the last 14 days, have you experienced that known odors are distorted or that you detected odors that were not present?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Smell and Taste</td>
 <td>smell_age</td>
 <td>Age when smell changed</td>
 <td>999= do not know, 1000= never experienced problems</td>
 <td>If your sense of smell is impaired, distorted, or you experience odors that are not present: How old were you when the sense of smell changed?</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Smell and Taste</td>
 <td>smell_rate</td>
 <td>Speed of smell change</td>
 <td>1= suddenly, 2=gradually, 9= do not know</td>
 <td>Has your altered sense of smell occurred suddenly or gradually?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Smell and Taste</td>
 <td>taste</td>
 <td>Rating of taste since the last 14 days</td>
-<td>Continous arbitrary 1:100, 1= No smell, 100=perfect smell</td>
+<td>continuous arbitrary 1:100, 1= No smell, 100=perfect smell</td>
 <td>Please rate how good your sense of taste has been on average over the past 14 days</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Smell and Taste</td>
 <td>taste_fanta</td>
 <td>Fantomic taste since the last 14 days</td>
 <td>1=No, 2= yes I experience basic tastes to be distorted, 3= yes I experience basic tastes that are not there, 4= yes both distortion and basic tastes that are not there</td>
 <td>In the last 14 days, have you experienced that basic tastes are distorted or that you register tastes that are not present?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Smell and Taste</td>
 <td>taste_age</td>
 <td>Age when taste changed</td>
 <td>years, 999= do not know, 1000= never experienced problems</td>
 <td>If your sense of taste is impaired, distorted, or you experience tastes that are not present: How old were you when your sense of taste changed?</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Smell and Taste</td>
 <td>taste_rate</td>
 <td>Speed of taste change</td>
 <td>1= suddenly, 2=gradually, 9= do not know</td>
 <td>Has your altered sense of taste occurred suddenly or gradually?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Smell and Taste</td>
 <td>smelltaste_impact</td>
 <td>Rating of negative consequences of impaired smell/taste on quality of life</td>
-<td>Continous arbitrary 1:100, 1= No impact, 100= total impact</td>
+<td>continuous arbitrary 1:100, 1= No impact, 100= total impact</td>
 <td>Does changes in the sense of smell and / or taste have a negative consequence for your quality of life?</td>
 </tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_w1</td>
+<td>Sexual function, Overall</td>
+<td>0=No, 1= yes, 9= Do not know</td>
+<td>Are you satisfied with your sexual function?</td>
+</tr>
 <tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_w2</td>
+<td>Time with sexual dissatisfaction</td>
+<td></td>
+<td>How long have you been dissatified with your sexual function?</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_w3_1</td>
+<td>Sexual dysfunction w1</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_w3_2</td>
+<td>Sexual dysfunction w2</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_w3_3</td>
+<td>Sexual dysfunction w3</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_w3_4</td>
+<td>Sexual dysfunction w4</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_w3_5</td>
+<td>Sexual dysfunction w5</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_w3_6</td>
+<td>Sexual dysfunction w6</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_w4</td>
+<td>Most bothersome problem</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>Which problem is most bothersome (mark one)</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_w5</td>
+<td>Sex GP</td>
+<td>0= No, 1=Yes, 9= Do not know</td>
+<td>Would you like to talk about it with your GP?</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_m1</td>
+<td>Sexual function, Overall</td>
+<td>0=No, 1= yes, 9= Do not know</td>
+<td>Are you satisfied with your sexual function?</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_m2</td>
+<td>Time with sexual dissatisfaction</td>
+<td></td>
+<td>How long have you been dissatified with your sexual function?</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_m3_1</td>
+<td>Sexual dysfunction m1</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with erection, 3= Problem ejaculating too early during sexual activity, 4= Problem with taking too long, or not being able to ejaculate or have orgasm, 5= Problem with pain during sex, 6= Problem with penile curvature during erection, 7= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_m3_2</td>
+<td>Sexual dysfunction m2</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with erection, 3= Problem ejaculating too early during sexual activity, 4= Problem with taking too long, or not being able to ejaculate or have orgasm, 5= Problem with pain during sex, 6= Problem with penile curvature during erection, 7= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_m3_3</td>
+<td>Sexual dysfunction m3</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with erection, 3= Problem ejaculating too early during sexual activity, 4= Problem with taking too long, or not being able to ejaculate or have orgasm, 5= Problem with pain during sex, 6= Problem with penile curvature during erection, 7= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_m3_4</td>
+<td>Sexual dysfunction m4</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with erection, 3= Problem ejaculating too early during sexual activity, 4= Problem with taking too long, or not being able to ejaculate or have orgasm, 5= Problem with pain during sex, 6= Problem with penile curvature during erection, 7= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_m3_5</td>
+<td>Sexual dysfunction m5</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with erection, 3= Problem ejaculating too early during sexual activity, 4= Problem with taking too long, or not being able to ejaculate or have orgasm, 5= Problem with pain during sex, 6= Problem with penile curvature during erection, 7= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_m3_6</td>
+<td>Sexual dysfunction m6</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with erection, 3= Problem ejaculating too early during sexual activity, 4= Problem with taking too long, or not being able to ejaculate or have orgasm, 5= Problem with pain during sex, 6= Problem with penile curvature during erection, 7= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_m3_7</td>
+<td>Sexual dysfunction m7</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with erection, 3= Problem ejaculating too early during sexual activity, 4= Problem with taking too long, or not being able to ejaculate or have orgasm, 5= Problem with pain during sex, 6= Problem with penile curvature during erection, 7= Other</td>
+<td>The problem with your sexual function is (mark one or more):</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>bssc_m4</td>
+<td>Most bothersome problem</td>
+<td>1= Problems with little or no interest in sex, 2= Problem with decreased sensation of clitoris or vagina, 3= Problem with decreased vaginal lubrication (dryness), 4= Problem reachin orgasm, 5= Problem with pain/or cramping during sex, 6= Other</td>
+<td>Which problem is most bothersome (mark one)</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>bssc_m5</td>
+<td>Sex GP</td>
+<td>0= No, 1=Yes, 9= Do not know</td>
+<td>Would you like to talk about it with your GP?</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_interestprop_w</td>
+<td>Interest problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problems with little or no interest in sex</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>sex_sensprop_w</td>
+<td>Sensation problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem with decreased sensation of clitoris or vagina</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_dryprob_w</td>
+<td>Dryness problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem with decreased vaginal lubrication (dryness)</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>sex_orgprob_w</td>
+<td>Orgasm problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem reachin orgasm</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_painprob_w</td>
+<td>Pain problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem with pain/or cramping during sex</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>sex_otherprob_w</td>
+<td>Other problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Other</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_total_w</td>
+<td>Total problems women</td>
+<td>1=1 problem, 2=2 problems, 3=3 problems, 4=4 problems, 5= 5 problems, 6=&gt;=6 problems</td>
+<td>Number of problems, women</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>sex_interestprop_m</td>
+<td>Interest problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problems with little or no interest in sex</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_erecprop_m</td>
+<td>Erection problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem with erection</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>sex_ejacprop_m</td>
+<td>Ejaculation problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem ejaculating too early during sexual activity</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_orgprop_m</td>
+<td>Orgasm problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem with taking too long, or not being able to ejaculate or have orgasm</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>sex_painprop_m</td>
+<td>Pain problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem with pain during sex</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_curvprop_m</td>
+<td>Curvature problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Problem with penile curvature during erection</td>
+</tr>
+<tr class="odd">
+<td>Sexual dysfunction</td>
+<td>sex_otherprop_m</td>
+<td>Other problem</td>
+<td>0=Not selected, 1= Yes</td>
+<td>Other</td>
+</tr>
+<tr class="even">
+<td>Sexual dysfunction</td>
+<td>sex_total_m</td>
+<td>Total problems male</td>
+<td>1=1 problem, 2=2 problems, 3=3 problems, 4=4 problems, 5= 5 problems, 6=6 problems, 7= &gt;=7 problems</td>
+<td>Number of problems, male</td>
+</tr>
+<tr class="odd">
 <td>Teeth</td>
-<td>tandvurd</td>
+<td>dentalhealth</td>
 <td>General dental health</td>
 <td>1=Excellent, 2=Very good, 3=Good, 4=Fair, 5=Poor, 9=Do not know</td>
-<td>How would you overall assess the health of your teeth and gums?</td>
-</tr>
-<tr class="odd">
-<td>Teeth</td>
-<td>torhed</td>
-<td>Sense of dry mouth</td>
-<td>1=Not feeling dry, 2=Some dryness, 3=Very dry mouth, 4=Severe dryness in mouth</td>
-<td>Do you have a daily sensation of dryness in your mouth?</td>
+<td>Overall, how would you rate the health of your teeth and gums?</td>
 </tr>
 <tr class="even">
 <td>Teeth</td>
-<td>taender</td>
-<td>Number of teeth</td>
-<td>1= No teeth, 2=1-9 teeth, 3=10-19 teeth, 4=20-27 teeth, 5= All teeth</td>
-<td>Almost all adults have had teeth extracted. How many of your own teeth do you have left?</td>
+<td>drymouth</td>
+<td>Sense of dry mouth</td>
+<td>1= I don’t suffer from dry mouth, 2= I suffer somewhat from dry mouth, 3= I suffer very much from dry mouth, 4= I suffer from severe dry mouth and have difficulties talking</td>
+<td>Do you daily suffer from a dry mouth?</td>
 </tr>
 <tr class="odd">
+<td>Teeth</td>
+<td>teeth</td>
+<td>Number of teeth left</td>
+<td>1= No teeth, 2=1-9 teeth, 3=10-19 teeth, 4=20-27 teeth, 5= All teeth</td>
+<td>Almost all adults have had teeth extracted. How many of your own teeth do you have?</td>
+</tr>
+<tr class="even">
 <td>Teeth</td>
 <td>para</td>
-<td>Paradentose</td>
-<td>1=Ja, 2=Nej</td>
-<td>Do you think you have periodontal disease?</td>
-</tr>
-<tr class="even">
-<td>Teeth</td>
-<td>rens</td>
-<td>Paradentose treatment</td>
-<td>1=Ja, 2=Nej</td>
-<td>Have you received treatment for periodontal disease, for example deep cleaning and root planing, also known as “deep cleaning”?</td>
+<td>Paradontosis</td>
+<td>1=Yes, 0=No</td>
+<td>Do you think you might have gum disease?</td>
 </tr>
 <tr class="odd">
+<td>Teeth</td>
+<td>tooth_clean</td>
+<td>Paradentose treatment</td>
+<td>1=Yes, 0=No</td>
+<td>Have you ever had treatment for gum disease such as scaling and root planing, sometimes called “deep cleaning”?</td>
+</tr>
+<tr class="even">
 <td>Pregnancy</td>
 <td>pregnancy</td>
 <td>Previous pregnancy</td>
 <td>1= I have been pregnant, 2= I am pregnant at the moment, 3= no</td>
 <td>Have you ever been pregnant?</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pregnancy</td>
 <td>birth_number</td>
 <td>Number of births</td>
-<td>continious</td>
+<td>continuous</td>
 <td>How many of the following have you experienced? Births</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pregnancy</td>
 <td>abort_spon</td>
 <td>Number of miscarriages</td>
-<td>continious</td>
+<td>continuous</td>
 <td>How many of the following have you experienced? Miscarriages</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pregnancy</td>
 <td>abort_prov</td>
 <td>number of induced abortions</td>
-<td>continious</td>
+<td>continuous</td>
 <td>How many of the following have you experienced? Induced abortion</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pregnancy</td>
 <td>any_contraception</td>
 <td>Any Contraceptives</td>
-<td></td>
+<td>1=Yes , 0=No , 9= Do not know</td>
 <td>Do you use safe contraseptives?</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pregnancy</td>
-<td>midler_01</td>
+<td>contraceptives_01</td>
 <td>Intrauterine system (hormone)</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pregnancy</td>
-<td>midler_02</td>
+<td>contraceptives_02</td>
 <td>Intrauterine device (copper coil)</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pregnancy</td>
-<td>midler_03</td>
+<td>contraceptives_03</td>
 <td>Combined oral contraceptive pill</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pregnancy</td>
-<td>midler_04</td>
+<td>contraceptives_04</td>
 <td>Vaginal ring</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pregnancy</td>
-<td>midler_05</td>
+<td>contraceptives_05</td>
 <td>Contraceptive patch</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pregnancy</td>
-<td>midler_06</td>
+<td>contraceptives_06</td>
 <td>Contraceptive injection</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pregnancy</td>
-<td>midler_07</td>
+<td>contraceptives_07</td>
 <td>Progestogen-only pill</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pregnancy</td>
-<td>midler_08</td>
+<td>contraceptives_08</td>
 <td>Contraceptive implant</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Pregnancy</td>
-<td>midler_09</td>
-<td>Sterilisation</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
 <tr class="odd">
 <td>Pregnancy</td>
-<td>midler_10</td>
-<td>Condoms</td>
-<td></td>
-<td></td>
+<td>contraceptives_09</td>
+<td>Sterilisation</td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
 </tr>
 <tr class="even">
 <td>Pregnancy</td>
-<td>midler_11</td>
+<td>contraceptives_10</td>
+<td>Condoms</td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
+</tr>
+<tr class="odd">
+<td>Pregnancy</td>
+<td>contraceptives_11</td>
 <td>Other</td>
-<td></td>
-<td></td>
+<td>1= Intrauterine system (hormone), 2= Intrauterine device (copper coil), 3= Combined oral contraceptive pill, 4= Vaginal ring, 5= Contraceptive patch, 6= Contraceptive injection, 7= Progestogen-only pill, 8= Contraceptive implant, 9= Sterilisation, 10= Condoms, 11= Other</td>
+<td>What type of contraceptives do you use?</td>
+</tr>
+<tr class="even">
+<td>Pregnancy</td>
+<td>contra_iudhorm</td>
+<td>Intrauterine system (hormone)</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Intrauterine system (hormone)</td>
+</tr>
+<tr class="odd">
+<td>Pregnancy</td>
+<td>contra_iudcop</td>
+<td>Intrauterine device (copper coil)</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Intrauterine device (copper coil)</td>
+</tr>
+<tr class="even">
+<td>Pregnancy</td>
+<td>contra_oralcomb</td>
+<td>Combined oral contraceptive pill</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Combined oral contraceptive pill</td>
+</tr>
+<tr class="odd">
+<td>Pregnancy</td>
+<td>contra_vaginalring</td>
+<td>Vaginal ring</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Vaginal ring</td>
+</tr>
+<tr class="even">
+<td>Pregnancy</td>
+<td>contra_patchhorm</td>
+<td>Contraceptive patch</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Contraceptive patch</td>
+</tr>
+<tr class="odd">
+<td>Pregnancy</td>
+<td>contra_injectionhorm</td>
+<td>Contraceptive injection</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Contraceptive injection</td>
+</tr>
+<tr class="even">
+<td>Pregnancy</td>
+<td>contra_oralprog</td>
+<td>Progestogen-only pill</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Progestogen-only pill</td>
+</tr>
+<tr class="odd">
+<td>Pregnancy</td>
+<td>contra_implant</td>
+<td>Contraceptive implant</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Contraceptive implant</td>
+</tr>
+<tr class="even">
+<td>Pregnancy</td>
+<td>contra_steri</td>
+<td>Sterilisation</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Sterilisation</td>
+</tr>
+<tr class="odd">
+<td>Pregnancy</td>
+<td>contra_condoms</td>
+<td>Condoms</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Condoms</td>
+</tr>
+<tr class="even">
+<td>Pregnancy</td>
+<td>contra_other</td>
+<td>Other</td>
+<td>0= Not Selected, 1=Yes</td>
+<td>Other</td>
 </tr>
 <tr class="odd">
 <td>Pregnancy</td>
 <td>preg_wish</td>
 <td>Pregnancy wish</td>
-<td></td>
+<td>1=Yes , 0=No , 9= Do not know</td>
 <td>Do you wish to become pregnant?</td>
 </tr>
 <tr class="even">
@@ -854,14 +1176,14 @@ ul.task-list li input[type="checkbox"] {
 <td>Pregnancy</td>
 <td>preg_gp1</td>
 <td>Pregnancy counsil allready</td>
-<td></td>
+<td>1=Yes , 0=No , 9= Do not know</td>
 <td>Have you sought counsil from your doctor on how to achieve optimal conditions for a healthy pregnancy?</td>
 </tr>
 <tr class="even">
 <td>Pregnancy</td>
 <td>preg_gp2</td>
 <td>Wish for pregnancy counsil</td>
-<td></td>
+<td>1=Yes , 0=No , 9= Do not know</td>
 <td>Would you like to talk to your doctor or another healthcare professional, on how to achieve optimal conditions for a healthy pregnancy</td>
 </tr>
 <tr class="odd">
@@ -869,55 +1191,55 @@ ul.task-list li input[type="checkbox"] {
 <td>isi_1</td>
 <td>Difficulty falling asleep</td>
 <td>0=None, 1= Mild, 2=Moderate, 3=Severe, 4= Very</td>
-<td></td>
+<td>Difficulty falling asleep</td>
 </tr>
 <tr class="even">
 <td>Insomnia Severity Index</td>
 <td>isi_2</td>
 <td>Difficulty staying asleep</td>
 <td>0=None, 1= Mild, 2=Moderate, 3=Severe, 4= Very</td>
-<td></td>
+<td>Difficulty staying asleep</td>
 </tr>
 <tr class="odd">
 <td>Insomnia Severity Index</td>
 <td>isi_3</td>
 <td>Problem waking up too early</td>
 <td>0=None, 1= Mild, 2=Moderate, 3=Severe, 4= Very</td>
-<td></td>
+<td>Problem waking up too early</td>
 </tr>
 <tr class="even">
 <td>Insomnia Severity Index</td>
 <td>isi_4</td>
 <td>Satisfied/dissatified with slleping pattern</td>
 <td>0=Very satisfacting, 1=satisfacting, 2=neutral, 3=dissatisfacting, 4=Very dissatisfacting</td>
-<td></td>
+<td>how satisfied/dissatified are you with your current sleeping pattern</td>
 </tr>
 <tr class="odd">
 <td>Insomnia Severity Index</td>
 <td>isi_5</td>
 <td>Sleep problem interfere with daily function</td>
 <td>0=Not at all interfering, 1= A little, 2=Somewhat, 3=Much, 4= Very much interferring</td>
-<td></td>
+<td>To what extent do you consider your sleep problem interfere with daily functioning</td>
 </tr>
 <tr class="even">
 <td>Insomnia Severity Index</td>
 <td>isi_6</td>
 <td>Noticeable to others</td>
 <td>0=Not at all noticeable, 1= Barely, 2=Somewhat, 3=Much, 4= Very much noticeable</td>
-<td></td>
+<td>How noticeable to others, do you think your sleeping problem is in terms of impairing your quality of life</td>
 </tr>
 <tr class="odd">
 <td>Insomnia Severity Index</td>
 <td>isi_7</td>
 <td>Worried/distressed about current sleeping problem</td>
 <td>0=Not at all, 1= A little, 2=Somewhat, 3=Much, 4= Very much</td>
-<td></td>
+<td>How worried/distressed are you about your current sleeping problem</td>
 </tr>
 <tr class="even">
 <td>Insomnia Severity Index</td>
 <td>isi_score</td>
 <td>Insomia severity index sumscore</td>
-<td></td>
+<td>continuous</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -926,6 +1248,34 @@ ul.task-list li input[type="checkbox"] {
 <td>Insomia severity index level</td>
 <td>0= No clinically significant insomia (≤7), 1=subtreshold insomia (8-14), 2=clinical insomia (moderate severity) (15-21), 3=clinical insomia (severe) (22-28)</td>
 <td></td>
+</tr>
+<tr class="even">
+<td>Sleep apnoe</td>
+<td>sb1</td>
+<td>Do you Snore Loudly (loud enough to be heard through closed doors or your bed-partner elbows you for snoring at night)?</td>
+<td>1=Yes, 0=No</td>
+<td>Do you Snore Loudly (loud enough to be heard through closed doors or your bed-partner elbows you for snoring at night)?</td>
+</tr>
+<tr class="odd">
+<td>Sleep apnoe</td>
+<td>sb2</td>
+<td>Do you often feel Tired, Fatigued, or Sleepy during the daytime (such as falling asleep during driving or talking to someone)?</td>
+<td>1=Yes, 0=No</td>
+<td>Do you often feel Tired, Fatigued, or Sleepy during the daytime (such as falling asleep during driving or talking to someone)?</td>
+</tr>
+<tr class="even">
+<td>Sleep apnoe</td>
+<td>sb3</td>
+<td>Has anyone Observed you Stop Breathing or Choking/Gasping during your sleep ?</td>
+<td>1=Yes, 0=No</td>
+<td>Has anyone Observed you Stop Breathing or Choking/Gasping during your sleep ?</td>
+</tr>
+<tr class="odd">
+<td>Sleep apnoe</td>
+<td>sb4</td>
+<td>Do you have or are being treated for High Blood Pressure ?</td>
+<td>1=Yes, 0=No</td>
+<td>Do you have or are being treated for High Blood Pressure ?</td>
 </tr>
 <tr class="even">
 <td>Blood presure and diabetes</td>
@@ -968,6 +1318,160 @@ ul.task-list li input[type="checkbox"] {
 <td>Do you have diabetes?</td>
 <td>1=yes, 0= no, 9=dont know</td>
 <td>Do you have diabetes?</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>disease_01</td>
+<td>Disease 1</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>disease_02</td>
+<td>Disease 2</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>disease_03</td>
+<td>Disease 3</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>disease_04</td>
+<td>Disease 4</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>disease_05</td>
+<td>Disease 5</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>disease_06</td>
+<td>Disease 6</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>disease_07</td>
+<td>Disease 7</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>disease_08</td>
+<td>Disease 8</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>disease_09</td>
+<td>Disease 9</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>disease_10</td>
+<td>Disease 10</td>
+<td>1=Hypertension, 2=AMI, 3, Angina, 4=Stroke, 5=Bronchitis, 6=Osteoporosis, 7=Cancer, 8=Psychiatric short, 9=Psychiatric long, 10=No diseases</td>
+<td>For each of the following diseases and health problems, please indicate whether you currently have or have previously had any of these. Multiple answers possible</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>dis_hyper</td>
+<td>Hypertension</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Hypertension</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>dis_ami</td>
+<td>Acute myocardie infarct</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Acute myocardie infarct</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>dis_angina</td>
+<td>Angina pectoris</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Angina pectoris</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>dis_stroke</td>
+<td>Stroke</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Stroke</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>dis_lung</td>
+<td>chronial bronchitis, hyperinflated lungs (emphysema, COPD)</td>
+<td>1=Yes, 0=Not selected</td>
+<td>chronial bronchitis, hyperinflated lungs (emphysema, COPD)</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>dis_osteo</td>
+<td>Osteoporosis</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Osteoporosis</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>dis_cancer</td>
+<td>Cancer</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Cancer</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>dis_psyshort</td>
+<td>Psychiatric disease, lasting until now or less than 6 month</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Psychiatric disease, lasting until now or less than 6 month</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>dis_psylong</td>
+<td>Psychiatric disease lasting longer than 6 month</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Psychiatric disease lasting longer than 6 month</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>dis_none</td>
+<td>I hae never had any of these diseases</td>
+<td>1=Yes, 0=Not selected</td>
+<td>I hae never had any of these diseases</td>
+</tr>
+<tr class="even">
+<td>Diseases</td>
+<td>distotal</td>
+<td>Number of diseases</td>
+<td>1=Yes, 0=Not selected</td>
+<td>Number of diseases</td>
+</tr>
+<tr class="odd">
+<td>Diseases</td>
+<td>dismiss</td>
+<td>No answer</td>
+<td>1=Yes, 0=Not selected</td>
+<td>No answer</td>
 </tr>
 <tr class="even">
 <td>Diabetes-specific</td>
@@ -1016,97 +1520,97 @@ ul.task-list li input[type="checkbox"] {
 <td>pam01</td>
 <td>I am the person who is responsible for taking care of my health</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I am the person who is responsible for taking care of my health</td>
 </tr>
 <tr class="odd">
 <td>PAM</td>
 <td>pam02</td>
 <td>Taking an active role in my own health care is the most important thing that affects my health</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>Taking an active role in my own health care is the most important thing that affects my health</td>
 </tr>
 <tr class="even">
 <td>PAM</td>
 <td>pam03</td>
 <td>I am confident I can help prevent or reduce problems associated with my health</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I am confident I can help prevent or reduce problems associated with my health</td>
 </tr>
 <tr class="odd">
 <td>PAM</td>
 <td>pam04</td>
 <td>I know what each of my prescribed medications do</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I know what each of my prescribed medications do</td>
 </tr>
 <tr class="even">
 <td>PAM</td>
 <td>pam05</td>
 <td>I am confident that I can tell whether I need to go to the doctor or whether I can take care of a health problem myself</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I am confident that I can tell whether I need to go to the doctor or whether I can take care of a health problem myself</td>
 </tr>
 <tr class="odd">
 <td>PAM</td>
 <td>pam06</td>
 <td>I am confident that I can tell a doctor or nurse concerns I have even when he or she does not ask</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I am confident that I can tell a doctor or nurse concerns I have even when he or she does not ask</td>
 </tr>
 <tr class="even">
 <td>PAM</td>
 <td>pam07</td>
 <td>I am confident that I can carry out medical treatments I may need to do at home</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I am confident that I can carry out medical treatments I may need to do at home</td>
 </tr>
 <tr class="odd">
 <td>PAM</td>
 <td>pam08</td>
 <td>I understand my health problems and what causes them</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I understand my health problems and what causes them</td>
 </tr>
 <tr class="even">
 <td>PAM</td>
 <td>pam09</td>
 <td>I know what treatments are available for my health problems</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I know what treatments are available for my health problems</td>
 </tr>
 <tr class="odd">
 <td>PAM</td>
 <td>pam10</td>
 <td>I have been able to maintain lifestyle changes, like healthy eating or exercising</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I have been able to maintain lifestyle changes, like healthy eating or exercising</td>
 </tr>
 <tr class="even">
 <td>PAM</td>
 <td>pam11</td>
 <td>I know how to prevent problems with my health</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I know how to prevent problems with my health</td>
 </tr>
 <tr class="odd">
 <td>PAM</td>
 <td>pam12</td>
 <td>I am confident I can work out solutions when new problems arise with my health</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I am confident I can work out solutions when new problems arise with my health</td>
 </tr>
 <tr class="even">
 <td>PAM</td>
 <td>pam13</td>
 <td>I am confident that I can maintain lifestyle changes, like healthy eating and exercising, even during times of stress</td>
 <td>1= Disagree strongly, 1= Disagree, 3= Agree, 4=Agree strongly, 0= N/A</td>
-<td></td>
+<td>I am confident that I can maintain lifestyle changes, like healthy eating and exercising, even during times of stress</td>
 </tr>
 <tr class="odd">
 <td>PAM</td>
 <td>pam_score</td>
 <td>Pam sumscore</td>
-<td></td>
+<td>continuous</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1148,7 +1652,7 @@ ul.task-list li input[type="checkbox"] {
 <td>PAID</td>
 <td>paid_score</td>
 <td>Paid sumscore</td>
-<td></td>
+<td>continuous</td>
 <td></td>
 </tr>
 <tr class="even">
