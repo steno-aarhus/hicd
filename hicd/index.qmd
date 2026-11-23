@@ -23,7 +23,7 @@ An electronic questionnaire was distributed to eligible members of the cohort on
 
 The HICD cohort is followed through repeated questionnaires and linkage to national and regional registers. The first follow-up questionnaire was conducted in 2024, and the next is planned for 2028. All individuals invited at baseline will be invited to participate in subsequent questionnaire waves, regardless of whether they responded to previous questionnaires.
 
-The cohort follows an open-cohort design, allowing new individuals to be included at each follow-up. This includes individuals who have developed diabetes since the previous wave, reached the age of 18 years or moved into the Central Denmark Region. For newly identified individuals with diabetes, a comparison group without diabetes is selected using the same approach as at baseline, based on sex, age and municipality.
+The cohort follows an open-cohort design, allowing new individuals to be included at each follow-up. This includes individuals who have developed diabetes since the previous wave, reached the age of 18 years or moved into the Central Denmark Region. For newly identified individuals with diabetes, a comparison group without diabetes is selected using the same approach as at baseline, based on sex, age and municipality. In addition, partners of newly included individuals with diabetes and comparison group members were invited to participate.
 
 Register and laboratory data are updated yearly.
 
