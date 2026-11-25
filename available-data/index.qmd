@@ -574,7 +574,7 @@ Most of the registers data are available more than 20 years before inclusion in 
 <details class="custom-details word-break-table">
 <summary>Statistics Denmark Codebook</summary>
 
-| Register                 | Title                                                                                 | Variable                    | Label                                                                  | Periode   |
+| Register                 | Title                                                                                 | Variable                    | Label                                                                  | Period   |
 | ------------------------ | ------------------------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------- | --------- |
 | AKM                      | Arbejdsklassifikationsmodulet                                                         | DISCO08_ALLE_INDK           | Fagklassifikation for beskæftigelsesforhold, fra 2010                  | 2000-2021 |
 | AKM                      | Arbejdsklassifikationsmodulet                                                         | DISCO08_ALLE_INDK_13        | Fagkode for væsentligste beskæftigelse i året- fra 2010                | 2000-2021 |
@@ -1056,3 +1056,66 @@ Most of the registers data are available more than 20 years before inclusion in 
 | VNDS                     | Historiske vandringer                                                                 | PNR                         | Personnummer                                                           | 2022      |
 
 </details>
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(DT)
+library(stringr)
+
+# 1. Læs denne fil (virker uanset filnavn, hvis der kun er én .qmd i mappen)
+kilde <- list.files(pattern = "\\.qmd$")[1]
+linjer <- readLines(kilde, encoding = "UTF-8")
+linjer <- linjer[str_detect(linjer, "^\\s*\\|")]
+
+# 2. Fjern adskillerlinjerne
+linjer <- linjer[!str_detect(linjer, "^\\s*\\|[\\s:|-]+$")]
+
+# 3. Del op i celler
+linjer <- str_remove_all(linjer, "^\\s*\\||\\|\\s*$")
+celler <- lapply(str_split(linjer, "\\|"), str_trim)
+
+# 4. Behold kun linjer med præcis 5 kolonner
+celler <- celler[lengths(celler) == 5]
+
+# 5. Lav en data.frame
+variabler <- as.data.frame(do.call(rbind, celler))
+names(variabler) <- c("Register", "Title", "Variable", "Label", "Period")
+
+# 6. Fjern overskriftslinjer og tomme linjer
+variabler <- variabler[variabler$Variable != "Variable" &
+                         variabler$Variable != "", ]
+
+# 7. Vis som søgbar tabel
+datatable(
+  variabler,
+  filter = "top",
+  rownames = FALSE,
+  width = "100%",
+  class = "display compact",
+  options = list(pageLength = 25, autoWidth = FALSE)
+)
+```
+```{=html}
+<style>
+  table, table.dataTable {
+    width: 100% !important;
+    table-layout: fixed !important;
+  }
+  table td, table th,
+  .callout table td, .callout table th {
+    font-size: 0.80rem !important;
+    padding: 4px 8px !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  /* Register, Title, Variable, Label (resten), Period */
+  table th:nth-child(1), table td:nth-child(1) { width: 12%; }
+  table th:nth-child(2), table td:nth-child(2) { width: 18%; }
+  table th:nth-child(3), table td:nth-child(3) { width: 20%; }
+  table th:nth-child(5), table td:nth-child(5) { width: 12%; white-space: nowrap !important; }
+  .dataTables_wrapper { width: 100%; overflow-x: hidden; }
+</style>
+```
