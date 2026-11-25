@@ -598,6 +598,12 @@ Only the searchable table
 <details class="custom-details word-break-table">
 <summary>Statistics Denmark Codebook</summary>
 
+{{< include _dst-codebook.md >}}
+
+</details>
+
+### Search the register variables
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -626,5 +632,3 @@ datatable(
   options = list(pageLength = 25, autoWidth = FALSE)
 )
 ```
-
-</details>
