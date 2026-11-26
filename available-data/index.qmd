@@ -55,7 +55,6 @@ The following register data are available in the HICD:
 * Register of Laboratory Results for Research
 * Cause of Death Register
 
-Most of the registers data are available more than 20 years before inclusion in the cohort. 
 
 In addition to the data listed below, access to a wide range of data can be requested through SDCA’s project database. The link below takes you to the project database website, where you can find details of the specific data available for application through both Statistics Denmark (DST) and the Danish Health Data Authority (DHDA).
 
