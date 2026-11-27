@@ -6,12 +6,6 @@ website:
   site-url: "https://steno-aarhus.github.io/hicd/"
   repo-url: "https://github.com/steno-aarhus/hicd"
 
-  # TODO: Remove announcement when website is ready
-  announcement: 
-    icon: info-circle
-    content: "This website is a work in progress and might contain incomplete or placeholder content."
-    type: light
-
   navbar:
     pinned: true
     left:
