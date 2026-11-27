@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://steno-aarhus.github.io/hicd/index.html</loc>
-    <lastmod>2026-11-26T08:26:54.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/hicd/how-to-get-data/index.html</loc>
-    <lastmod>2026-11-26T08:26:54.146Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/hicd/available-data/index.html</loc>
-    <lastmod>2026-11-26T08:26:54.146Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/hicd/publications/index.html</loc>
-    <lastmod>2026-11-26T08:26:54.151Z</lastmod>
+    <loc>https://steno-aarhus.github.io/hicd/hicd/index.html</loc>
+    <lastmod>2026-11-27T12:57:17.399Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/hicd/LICENSE.html</loc>
-    <lastmod>2026-11-26T08:26:54.141Z</lastmod>
+    <lastmod>2026-11-27T12:57:17.394Z</lastmod>
   </url>
   <url>
-    <loc>https://steno-aarhus.github.io/hicd/hicd/index.html</loc>
-    <lastmod>2026-11-26T08:26:54.146Z</lastmod>
+    <loc>https://steno-aarhus.github.io/hicd/publications/index.html</loc>
+    <lastmod>2026-11-27T12:57:17.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/hicd/how-to-get-data/index.html</loc>
+    <lastmod>2026-11-27T12:57:17.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/hicd/index.html</loc>
+    <lastmod>2026-11-27T12:57:17.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/hicd/available-data/index.html</loc>
+    <lastmod>2026-11-27T12:57:17.399Z</lastmod>
   </url>
 </urlset>
